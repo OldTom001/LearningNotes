@@ -1,7 +1,7 @@
 # -*- coding = utf-8 -*-
 # @Time: 2021/5/15 21:54
 # @Author: ZSL
-# @File: 2 IfElse.py
+# @File: 2 IfElseForWhile.py
 # @Software: PyCharm
 
 print("条件判断测试")
@@ -37,3 +37,4 @@ while counter < 5:
     counter += 1
 else:
     print("大于5")
+

@@ -74,7 +74,48 @@ else:
 * continue: 跳出当前循环, 直接进入下一轮循环
 * pass: 空语句, 一般用作占位语句, 不作任何事情
 
- 
+## 字符串
+
+* Python字符串可以使用单引号, 双引号, 和三引号(三个双引号)括起来, 使用反斜杠\转义特殊字符
+
+* Python3源码文件默认以UTF-8编码, 所有字符串都是unicode字符串
+
+* 支持字符串拼接, 截取等多种运算
+
+```python
+word ='字符串'
+sentence = "这个一个句子"
+paragraph = """
+    这是一个段落
+    可以有多行
+    保留格式
+"""
+print(word)
+print(sentence)
+print(paragraph)
+
+# 单引号和双引号有些区别
+mystr1 = "I'm a student"
+mystr2 = 'I\'m a student'  # 需要转义单引号
+print(mystr1)
+print(mystr2)
+str = "chengdu"
+print(str[1:7:2])  # 选择打印范围, 1~6, 步进2
+print(str + "你好")  # 拼接
+print(str * 3)  # 重复打印
+
+# 转义字符与取消转义
+print("hello\nchengdu")  # 反斜杠表示转义
+print(r"hello\nchengdu")  # 前面加r表示直接显示, 没有转义功能
+```
+
+## 列表
+
+![列表](Python基础.assets/列表-1621152280098.png)
+
+  
+
+  
 
 
 
