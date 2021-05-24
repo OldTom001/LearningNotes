@@ -113,9 +113,86 @@ print(r"hello\nchengdu")  # 前面加r表示直接显示, 没有转义功能
 
 ![列表](Python基础.assets/列表-1621152280098.png)
 
+  ```python
+  namelist = ["孙悟空", "猪悟能", "沙悟净"]
+  for name in namelist:
+      print(name)
   
+  # 增删改查测试
+  print("增删改查测试")
+  print("增")
+  nametemp = input("请输入添加学生的姓名")
+  namelist.append(nametemp)
+  for name in namelist:
+      print(name)
+  # extend, insert
+  
+  print("删")
+  del namelist[1]
+  for name in namelist:
+      print(name)
+  
+  # namelist.pop()  # 弹出最后一个元素
+  # namelist.remove("孙悟空")  # 若有重复数据, 则只能删除第一个
+  
+  print("改")
+  namelist[0] = "齐天大圣"
+  for name in namelist:
+      print(name)
+  
+  print("查")
+  namefind = input("请输入要查找的名字")
+  if namefind in namelist:
+      print("找到了")
+  else:
+      print("不存在")
+  
+  print(namelist.index("齐天大圣", 0, 3)) # 在列表0~2的范围内查找"齐天大圣", 若查到, 则返回索引, 否则会报错
+  
+  print("看看列表里边有多少个齐天大圣")
+  print(namelist.count("齐天大圣"))
+  
+  namelist.reverse()  # 反转
+  namelist.sort()  # 排序(升序)
+  namelist.sort(reverse=True)  # 排序(降序)
+  
+  ```
 
-  
+### 案例: 分配办公室
+
+```python
+import random
+
+print("为每个老师随机分配办公室")
+
+offices = [[], [], []]  # 嵌套列表
+names = ["A", "B", "C", "D", "E", "F", "G", "H"]
+for name in names:
+    index = random.randint(0, 2)  # 随机分配索引
+    offices[index].append(name)
+
+# 打印每个办公室的人
+i = 0
+for office in offices:
+    print("办公室%d内的人数为%d, 他们是: " % (i, len(office)))
+    for name in office:
+        print("%s" % name, end="\t")
+    print("\n")
+    i += 1
+```
+
+> 办公室0内的人数为4, 他们是: 
+> A	B	E	H	
+>
+> 办公室1内的人数为3, 他们是: 
+> C	D	F	
+>
+> 办公室2内的人数为1, 他们是: 
+> G	
+
+  ### 案例: 逛超市
+
+![作业 逛超市](Python基础.assets/作业 逛超市-1621158847434.png)
 
 
 
