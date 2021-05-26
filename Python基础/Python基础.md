@@ -413,6 +413,7 @@ content = f.readline()
 print("第1行: %s" % content)
 f.close()
 
+# 重命名文件
 # import os
 # os.rename("test.txt", "test.txt")
 
@@ -493,4 +494,50 @@ except Exception as result:
 ```
 
 ![古诗](Python基础.assets/古诗.png)
+
+# 爬虫基础
+
+## 任务介绍
+
+爬取豆瓣电影Top250的基本信息, 包括电影的名称, 豆瓣评分, 评价数, 电影概况, 电影链接等
+
+https://movie.douban.com/top250
+
+## 爬虫初识
+
+![爬虫初识](Python基础.assets/爬虫初识.png)
+
+([百度指数]([百度指数 (baidu.com)](https://index.baidu.com/v2/index.html#/))可以查看关键词流量)
+
+## 基本流程
+
+![爬虫基本流程](Python基础.assets/爬虫基本流程.png)
+
+## 准备工作
+
+![](Python基础.assets/准备工作.png)
+
+### 页面分析
+
+![页面分析](Python基础.assets/页面分析.png)
+
+* 按F12进入开发者模式, 点击Elements可以查看页面源码, 点击左上角箭头可以在页面中选择一个元素进行检查
+
+  ![页面源码](Python基础.assets/页面源码-1622035940437.png)
+
+* 点击Elements可以捕获向页面发送的请求(待续)
+
+### 编码规范
+
+![编码规范](Python基础.assets/编码规范-1622022917209.png)
+
+### 引入模块
+
+![引入模块](Python基础.assets/引入模块.png)
+
+## 获取数据
+
+* Python一般使用urllib库获取页面
+
+![获取数据](Python基础.assets/获取数据.png)
 
