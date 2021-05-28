@@ -1,4 +1,4 @@
-# 基础语法
+基础语法
 
 ## 运算符
 
@@ -525,7 +525,13 @@ https://movie.douban.com/top250
 
   ![页面源码](Python基础.assets/页面源码-1622035940437.png)
 
-* 点击Elements可以捕获向页面发送的请求(待续)
+* 点击Elements可以捕获向页面发送的请求, 在Headers中可以看到浏览器信息等, 爬虫时需要进行对应的封装
+
+  ![Elements](Python基础.assets/Elements-1622084798820.png)
+
+HTTP请求/响应测试网站[httpbin.org](http://httpbin.org/), 向该网站发送HTTP请求, Response body中会显示请求中包含的所有信息
+
+![httpbin.org](Python基础.assets/httpbin.org.png)
 
 ### 编码规范
 
@@ -535,9 +541,234 @@ https://movie.douban.com/top250
 
 ![引入模块](Python基础.assets/引入模块.png)
 
+### 使用urllib库访问网页
+
+导包
+
+```python
+import urllib.request
+import urllib.parse
+```
+
+get请求
+
+```python
+response = urllib.request.urlopen("http://www.baidu.com")
+# print(response)  # 返回response对象, 其中保存了网页的所有信息
+# print(response.read())  # 读取网页源代码
+print(response.read().decode("utf-8"))  # 解码, 解码后的代码可以保存为html文件, 然后用浏览器打开
+```
+
+post请求
+
+```python
+# 模拟浏览器真实行为, httpbin.org会将请求信息放在Response body中返回
+data = bytes(urllib.parse.urlencode({"hello": "world"}), encoding="utf-8")
+response = urllib.request.urlopen("http://httpbin.org/post", data=data)  # post请求必须传参数
+print(response.read().decode("utf-8"))
+```
+
+超时处理
+
+```python
+try:
+    response = urllib.request.urlopen("http://httpbin.org/get", timeout=0.01)  # 设置超时时间, 超时会报错
+    print(response.read().decode("utf-8"))
+except urllib.error.URLError as e:
+    print("time out!")
+```
+
+获取状态码
+
+```python
+response = urllib.request.urlopen("http://httpbin.org/get", timeout=1)
+print(response.status)  # 获取状态码, 正常是200
+```
+
+获取Response Headers
+
+```python
+response = urllib.request.urlopen("http://www.baidu.com")
+print(response.getheaders())  # 返回的是页面Response Headers中的所有信息
+print(response.getheader("Server"))  # 可以获取具体的一个头信息
+```
+
+豆瓣很聪明, 发现我是爬虫了, 返回418
+
+```python
+response = urllib.request.urlopen("http://douban.com", timeout=1)
+print(response.status)  # 返回418发现我是爬虫了
+```
+
+伪装成一个真正的浏览器
+
+```python
+# 包装一个req对象, 更像一个浏览器
+url = "http://httpbin.org/post"
+
+headers = {
+"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.66"
+} # 这里可以加入Request Headers中的更多信息, 可以把真实Request Headers中的信息全都写进去
+
+data = bytes(urllib.parse.urlencode({'name': 'eric'}), encoding="utf-8")
+req = urllib.request.Request(url=url, data=data, headers=headers, method="POST")
+response = urllib.request.urlopen(req)
+
+print(response.read().decode("utf-8"))
+```
+
+再爬一下豆瓣试试
+
+```python
+url = "http://www.douban.com"
+
+headers = {
+"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.66"
+}
+
+req = urllib.request.Request(url=url, headers=headers, method="POST")
+response = urllib.request.urlopen(req)
+
+print(response.read().decode("utf-8"))
+```
+
+豆瓣被骗了, 认为我是一个真正的浏览器
+
 ## 获取数据
 
 * Python一般使用urllib库获取页面
 
 ![获取数据](Python基础.assets/获取数据.png)
+
+## BeautifulSoup
+
+BeautifulSoup4将复杂HTML文档转换成一个复杂的树形结构, 每个节点都是Python对象, 所有对象可以归纳为4类:
+
+* Tag 标签
+
+  ```python
+  from bs4 import BeautifulSoup
+  file = open("./baidu.html", "rb")  # 二进制读取
+  html = file.read().decode("utf-8")
+  bs = BeautifulSoup(html, "html.parser")
+  # 1. Tag 标签
+  # 通过bs拿到标签及其内容, 只能拿到第一个内容
+  # title, a, head都是标签名, 在html代码中以<标签名>开始, </标签名>结束, 如<title>百度一下，你就知道</title>
+  print(bs.title)
+  print(type(bs.title))  # 类型为Tag
+  print(bs.a)
+  print(bs.head)
+  ```
+
+* NavigableString 标签里的内容
+
+  ```python
+  print(bs.title.string)
+  print(type(bs.title.string))  # 类型为NavigableString
+  
+  print(bs.a.attrs)  # 获取标签中的所有属性
+  ```
+
+* BeautifulSoup 表示整个html文档
+
+  ```python
+  print(bs.name)  # 名字叫document
+  print(bs.attrs)  # 没有属性
+  print(bs)  # 打印整个html文档
+  ```
+
+* Comment 注释, 是一个特殊的NavigableString, 输出内容不包含注释符号
+
+  ```python
+  print(bs.a)  # 带注释打印
+  print(bs.a.string)  # 自动去掉注释
+  print(type(bs.a.string))  # 网上这个类型是bs4.element.comment, 我的运行结果是bs4.element.NavigableString, 暂时不知道为什么
+  ```
+
+文档遍历
+
+```python
+print(bs.head.contents)  # 这是个列表
+print(bs.head.contents[0])
+# 更多内容搜索BeautifulSoup遍历树
+```
+
+文档搜索
+
+(1) find_all
+
+* 字符串过滤, 查找与字符串完全匹配的内容, 按标签查找
+
+  ```python
+  t_list = bs.find_all("a")
+  print(t_list)  # 打印a标签包含的所有内容
+  ```
+
+* 正则表达式搜索: 可以使用search()方法匹配内容, 按标签找
+
+  ```python
+  t_list = bs.find_all(re.compile("a"))  # 查找所有含有a的标签
+  print(t_list)
+  ```
+
+* 定义方法搜索
+
+  ```python
+  def name_is_exists(tag):
+      return tag.has_attr("name")
+  
+  
+  t_list = bs.find_all(name_is_exists)
+  # print(t_list)
+  for item in t_list:  # 按列表打印
+      print(item)
+  ```
+
+(2) kwargs  参数
+
+```python
+t_list = bs.find_all(id="head")  # 按id查找
+t_list = bs.find_all(class_=True)  # 带class的全要
+t_list = bs.find_all(href="http://news.baidu.com")  # 按href查找
+for item in t_list:  # 按列表打印
+    print(item)
+```
+
+(3) 文本查找, text参数
+
+```python
+t_list = bs.find_all(text = "hao123")  # 查找文本
+
+t_list = bs.find_all(text=["hao123", "地图", "贴吧"])  # 查找多个文本
+
+t_list = bs.find_all(text=re.compile("\d"))  # 用正则表达式查找包含特定文本的内容(标签里的字符串)
+```
+
+(4) limit参数
+
+```python
+t_list = bs.find_all("a", limit=3)  # 限定数量
+for item in t_list:
+    print(item)
+```
+
+(5) css选择器
+
+```python
+t_list = bs.select('title')  #通过标签查找
+
+t_list = bs.select(".mnav")  # 通过类名查找
+
+t_list = bs.select("#u1")  #通过id查找, id=u1
+
+t_list = bs.select("a[class]")  # 通过属性查找, 查找a标签下的class属性
+t_list = bs.select("a[class=toindex]")
+
+t_list = bs.select("head > meta")  # 通过子标签查找
+
+t_list = bs.select("meta ~ link")  # 通过兄弟标签查找, 查找meta标签的兄弟link标签
+
+for item in t_list:
+    print(item)
+```
 
