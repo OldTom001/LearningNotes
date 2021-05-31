@@ -1,4 +1,4 @@
-基础语法
+# 基础语法
 
 ## 运算符
 
@@ -77,8 +77,6 @@ else:
 ## 数据结构
 
 ### 字符串
-
-
 
 * Python字符串可以使用单引号, 双引号, 和三引号(三个双引号)括起来, 使用反斜杠\转义特殊字符
 
@@ -640,7 +638,7 @@ print(response.read().decode("utf-8"))
 
 ![获取数据](Python基础.assets/获取数据.png)
 
-## BeautifulSoup
+### BeautifulSoup
 
 BeautifulSoup4将复杂HTML文档转换成一个复杂的树形结构, 每个节点都是Python对象, 所有对象可以归纳为4类:
 
@@ -771,4 +769,253 @@ t_list = bs.select("meta ~ link")  # 通过兄弟标签查找, 查找meta标签�
 for item in t_list:
     print(item)
 ```
+
+### RE: 正则表达式
+
+常用操作符:
+
+![正则表达式常用操作](Python基础.assets/正则表达式常用操作.png)
+
+![正则表达式常用操作2](Python基础.assets/正则表达式常用操作2-1622195292663.png)
+
+[常用正则表达式](https://www.cnblogs.com/fozero/p/7868687.html)
+
+RE库主要功能函数
+
+![RE库](Python基础.assets/RE库-1622195449310.png)
+
+修饰符控制匹配的模式
+
+![修饰符](Python基础.assets/修饰符.png)
+
+```python
+import re
+
+# 创建模式对象
+pat = re.compile("AA")  # 此处的AA是正则表达式, 用来检验其他的字符串
+m = pat.search("CBA")  # CBA是被检验的字符串
+print(m)  # 返回none表示没有匹配的结果
+
+m = pat.search("ABCAA")
+print(m)  # 下标3,4匹配
+
+m = pat.search("ABCAADDCCAA")
+print(m)  # search方法只返回第一次匹配的结果
+
+
+# 不创建模式对象
+m = re.search("asd", "Aasd")  # 第一个参数是规则, 第二个参数是被检验的对象
+print(m)
+
+print(re.findall("a", "ASDaDFGAa"))  # 前面字符串是规则(正则表达式), 后面字符串是被检验的字符串, 打印所有符合条件的字符串
+
+print(re.findall("[A-Z]", "ASDaDFGAa"))  # 打印字符串中所有大写字母
+
+print(re.findall("[A-Z]+", "ASDaDFGAa"))  # >=一个大写字母则匹配
+
+# sub, 替换
+print(re.sub("a", "A", "abcdcasd"))  # 找到a, 并用A替换
+# 建议在正则表达式中, 被检验的字符串前加上r, 避免转义字符的问题
+a = r"\aadafsd-\'"
+print(a)
+```
+
+## 解析数据
+
+### 标签解析
+
+```python
+        soup = BeautifulSoup(html, "html.parser")
+        for item in soup.find_all('div', class_="item"):  # div标签, class(属性) = item
+            # print(item)  # 测试, 查看电影item, 全部信息
+```
+
+### 正则提取
+
+打印一个影片的所有信息, 保存为html, 方便分析
+
+```html
+<div class="item">
+<div class="pic">
+<em class="">1</em>
+<a href="https://movie.douban.com/subject/1292052/">
+<img alt="肖申克的救赎" class="" src="https://img2.doubanio.com/view/photo/s_ratio_poster/public/p480747492.jpg" width="100"/>
+</a>
+</div>
+<div class="info">
+<div class="hd">
+<a class="" href="https://movie.douban.com/subject/1292052/">
+<span class="title">肖申克的救赎</span>
+<span class="title"> / The Shawshank Redemption</span>
+<span class="other"> / 月黑高飞(港)  /  刺激1995(台)</span>
+</a>
+<span class="playable">[可播放]</span>
+</div>
+<div class="bd">
+<p class="">
+                            导演: 弗兰克·德拉邦特 Frank Darabont   主演: 蒂姆·罗宾斯 Tim Robbins /...<br/>
+                            1994 / 美国 / 犯罪 剧情
+                        </p>
+<div class="star">
+<span class="rating5-t"></span>
+<span class="rating_num" property="v:average">9.7</span>
+<span content="10.0" property="v:best"></span>
+<span>2358809人评价</span>
+</div>
+<p class="quote">
+<span class="inq">希望让人自由。</span>
+</p>
+</div>
+</div>
+</div>
+```
+
+根据上面的html代码, 定义提取规则
+
+```python
+import re
+# 影片详情链接
+findLink = re.compile(r'<a href="(.*?)">')  # 创建正则表达式对象, 表示规则, 用来查找链接 <a href="https://movie.douban.com/subject/1291560/">
+# 影片图片链接
+findImgSrc = re.compile(r'<img.*src="(.*?)"', re.S)  # re.S让换行符包含在字符中
+# 影片片名
+findTitle = re.compile(r'<span class="title">(.*)</span>')
+# 影片评分
+findRating = re.compile(r'<span class="rating_num" property="v:average">(.*)</span>')
+# 评价人数
+findJudge = re.compile(r'<span>(\d*)人评价</span>')
+# 找到概况
+findInq = re.compile(r'<span class="inq">(.*)</span>')
+# 相关内容
+findBd = re.compile(r'<p class="">(.*)</p>', re.S)
+
+# 打印
+link = re.findall(findLink, item)[0]  # re库用来通过正则表达式查找指定的字符串,
+print(link)  # 打印链接
+```
+
+## 保存数据
+
+### Excel保存
+
+![excel保存](Python基础.assets/excel保存.png)
+
+```python
+import xlwt
+
+workBook = xlwt.Workbook(encoding="utf-8")  # 创建workBook对象
+workSheet = workBook.add_sheet('sheet1')  # 创建工作表
+workSheet.write(0, 0, 'hello')  # 写入参数, 行, 列, 内容
+workBook.save('students.xls')
+```
+
+将dataList中的数据保存到excel文件"豆瓣电影Top250.xls"中
+
+```python
+def SaveData(savePath, dataList):
+    print("save....")
+    book = xlwt.Workbook(encoding="utf-8", style_compression=0)  # 创建workBook对象
+    sheet = book.add_sheet('sheet1', cell_overwrite_ok=True)  # 创建工作表
+    col = ("电影详情链接", "图片链接", "中文名", "外文名", "评分", "评价数", "概况", "相关信息")  # 列名
+    for i in range(0, 8):
+        sheet.write(0, i, col[i])  # 列名
+    for i in range(0, 250):  # 保存250条信息
+        print("第%d条" % (i+1))
+        data = dataList[i]
+        for j in range(0, 8):  # 每条信息有8列
+            sheet.write(i+1, j, data[j])
+    print("爬取完毕!")
+    book.save(savePath)
+```
+
+### SQLite数据库
+
+(1) 新建数据库文件, 穿件完毕后Project目录下显示test.db文件
+
+```python
+import sqlite3
+
+conn = sqlite3.connect("test.db")  # 打开或创建数据库文件
+print("Opened database successfully")
+```
+
+打开数据库文件
+
+![数据库1](Python基础.assets/数据库1.png)
+
+![数据库2](Python基础.assets/数据库2.png)
+
+![image-20210529172107667](Python基础.assets/image-20210529172107667.png)
+
+右侧的控制台可以进行数据库操作, 与代码操作效果相同.
+
+[SQLite 数据类型 | 菜鸟教程 (runoob.com)](https://www.runoob.com/sqlite/sqlite-data-types.html)
+
+(2) 创建数据表
+
+```python
+c = conn.cursor()  # 获取游标
+# 编写SQL语句, 插入id, name, age, address, salary
+sql = '''  
+    create table company
+        (id int primary key not null,
+        name text not null,
+        age int not null,
+        address char(50),
+        salary real);
+'''
+
+c.execute(sql)  # 执行sql语句
+conn.commit()  # 提交数据库操作
+conn.close()  # 关闭数据库链接
+print("成功建表")
+```
+
+在数据库中观察执行结果, 加减号可以添加数据
+
+![数据库4](Python基础.assets/数据库4.png)
+
+(3) 插入数据
+
+```python
+sql1 = '''
+    insert into company (id, name, age, address, salary)
+    values(1, "孙悟空", 500, "花果山", 8000);
+'''
+sql2 = '''
+    insert into company (id, name, age, address, salary)
+    values(2, "猪悟能", 400, "高老庄", 7000);
+'''
+
+c.execute(sql1)  # 执行sql语句
+c.execute(sql2)
+conn.commit()  # 提交数据库操作
+conn.close()  # 关闭数据库链接
+```
+
+(4) 查询数据
+
+```python
+sql = "select id, name, address, salary from company"
+cursor = c.execute(sql)
+for row in cursor:
+    print("id = ", row[0])
+    print("name = ", row[1])
+    print("address = ", row[2])
+    print("salary = ", row[3], "\n")
+
+print("查询完毕")
+```
+
+打印结果
+
+> id =  1
+> name =  孙悟空
+> address =  花果山
+> salary =  8000.0 
+>
+> id =  2
+> name =  猪悟能
+> address =  高老庄
+> salary =  7000.0 
 
