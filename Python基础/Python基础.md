@@ -1264,3 +1264,322 @@ if __name__ == '__main__':
     
 ```
 
+# 数据可视化
+
+## Flask框架
+
+![Flask框架](Python基础.assets/Flask框架.png)
+
+Flask框架的核心是Werkzeug和Jinjia2
+
+### 搭建环境
+
+基于Flask框架建立工程, 自动生成了一部分源码, 如下
+
+![image-20210601113504343](Python基础.assets/image-20210601113504343.png)
+
+```python
+from flask import Flask, render_template  # render_template是渲染模板
+
+app = Flask(__name__)
+
+
+# 路由解析
+# 相当于 hello_world = app.route('/')(hello_world), 先执行route中定义的功能, 然后打印hello world
+# '/'表示限定网站链接以/结尾
+@app.route('/')
+def hello_world():
+    return 'hello world!'
+
+if __name__ == '__main__':
+    app.run()
+```
+
+运行后进入控制台显示的网址, 即可看到网站
+
+![image-20210601113757582](Python基础.assets/image-20210601113757582.png)
+
+![image-20210601113815515](Python基础.assets/image-20210601113815515.png)
+
+开启调试模式, 程序执行后网页自动刷新, 不需要重启服务器. 如果有错误, 会在网页中显示
+
+![image-20210601111840035](Python基础.assets/image-20210601111840035.png)
+
+![image-20210601111857376](Python基础.assets/image-20210601111857376-1622517544260.png)
+
+### 装饰器
+
+> ```python
+> @app.route('/')
+> def hello_world():
+>     return 'hello world!'
+> ```
+
+上述代码相当于
+
+```python
+hello_world = app.route('/')(hello_world)
+```
+
+
+先执行`route('/')`, 然后再执行`hello_world()`, 其中`'/'`的含义是访问链接以/结尾的网站
+
+示例1:
+
+```python
+def log(func):
+    def wrapper(*args, **kw):
+        print('call %s():' % func.__name__)
+        return func(*args, **kw)
+    return wrapper
+
+
+@log
+def now():
+    print('2015-3-25')
+```
+
+执行1
+
+```
+>>> now()
+call now():
+2015-3-25
+```
+
+把`@log`放到`now()`函数的定义处，相当于执行了语句
+
+```python
+now = log(now)
+```
+
+函数执行路径:
+
+> log(now) 
+>
+> $\rightarrow$ return wrapper 
+>
+> $\rightarrow$ wrapper(*args, **kw) print('call %s():' % func.__name__)   此时 func=now 
+>
+> $\rightarrow$ return func(*args, **kw) 
+>
+> $\rightarrow$ now()
+
+示例2
+
+```python
+def log(text):
+    def decorator(func):
+        def wrapper(*args, **kw):
+            print('%s %s():' % (text, func.__name__))
+            return func(*args, **kw)
+        return wrapper
+    return decorator
+
+
+@log('execute')
+def now():
+    print('2015-3-25')
+```
+
+执行2
+
+```
+>>> now()
+execute now():
+2015-3-25
+```
+
+把`@log`放到`now()`函数的定义处，相当于执行了语句
+
+```python
+now = log('execute')(now)
+```
+
+详见廖雪峰教程[装饰器](https://www.liaoxuefeng.com/wiki/1016959663602400/1017451662295584)
+
+### 路由解析
+
+```python
+from flask import Flask
+
+app = Flask(__name__)
+
+
+# 路由解析
+# 相当于 hello_world = app.route('/')(hello_world), 先执行route中定义的功能, 然后打印hello world
+# 网站链接以/结尾
+@app.route('/')
+def hello_world():
+    return 'hello world!'
+
+
+# 网站链接以/index结尾
+@app.route("/index")
+def hello():
+    return "你好"
+
+
+# 通过访问路径, 获取用户的字符串参数
+@app.route("/user/<name>")
+def welcome(name):
+    return "你好, %s" % name
+
+
+# 通过访问路径, 获取用户的整形参数, 此外还可以写成float类型
+@app.route("/user/<int:id>")
+def welcome2(id):
+    return "你好, %d" % id
+
+
+if __name__ == '__main__':
+    app.run()
+
+```
+
+使用render_template渲染模板:
+
+导入render_template库, 在templates文件夹下新建一个html文件, 在body中写入文字
+
+![image-20210601120755527](Python基础.assets/image-20210601120755527.png)
+
+然后执行下列代码, 即可得到渲染后的网页
+
+```python
+from flask import Flask, render_template  # render_template是渲染模板
+
+app = Flask(__name__)
+
+
+# 返回给用户渲染后的网站文件
+@app.route("/")
+def index2():
+    return render_template("index.html")
+
+
+if __name__ == '__main__':
+    app.run()
+```
+
+### 数据交互
+
+* 向页面传递一个变量
+
+  ```python
+  # 向页面传递一个变量
+  @app.route("/")
+  def index2():
+      time = datetime.date.today()  # 普通变量
+      name = ["孙悟空", "猪悟能", "沙悟净"]
+      task = {"任务" : "打扫卫生", "时间" : "3小时"}  # 字典类型
+      return render_template("index.html", var=time, list=name, task=task) # 给网页中的变量赋值
+  ```
+
+  对应的html文件, index.html
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Title</title>
+  </head>
+  <body>
+      欢迎光临, 今天是{{ var }}. <br/>
+      今天值班的是:<br/>
+      {% for data in list %}
+          <li>{{ data }}</li>
+      {% endfor %}
+  
+      任务:<br/>   <!--了解如何在页面打印表格, 以及如何迭代-->
+      <table border = 1>  <!--border = 1显示边框<tr>-->
+          {% for key, value in task.items() %}  <!--[(key, value), (key, value), (key, value)]-->
+              <tr>  <!--每一行是一个<tr>-->
+              <td>{{ key }}</td>  <!--每一个单元格是一个<td>-->
+              <td>{{ value }}</td>
+              </tr>
+          {% endfor %}
+      </table>
+  </body>
+  </html>
+  ```
+
+* 表单提交, 提交后由/register转到/result, 由action语句决定
+
+  ```python
+  # 表单提交
+  @app.route('/test/register')
+  def register():
+      return render_template("test/register.html")
+  ```
+
+  register.html
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Title</title>
+  </head>
+  <body>
+  {#<form action="http://localhost:5000/result" method="post">#}  <!--不要把路由写死-->
+  <form action="{{ url_for('result') }}" method="post">  <!--url_for()会动态获取当前根路径,然后在后面添加/result-->
+      <p>姓名: <input type = "text" name = "姓名"></p>
+      <p>年龄: <input type = "text" name = "年龄"></p>
+      <p>性别: <input type = "text" name = "性别"></p>
+      <p>地址: <input type = "text" name = "地址"></p>
+      <p><input type = "submit" value = "提交"></p>
+  </form>
+  </body>
+  </html>
+  ```
+
+* 接收表单, 注意GET和POST必须大写, 否则无法解析
+
+  ```python
+  # 接收表单提交的路由需要指定method为post
+  @app.route('/result', methods=["GET", "POST"])
+  def result():
+      if request.method == "POST":  # POST必须大写, 不然没法解析
+          result = request.form  # 表单中的所有内容当成一个字典
+          return render_template("test/result.html", result=result)
+  ```
+
+  result.html
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Title</title>
+  </head>
+  <body>
+  
+      <table border = 1>  <!--border = 1显示边框<tr>-->
+          {% for key, value in result.items() %}  <!--[(key, value), (key, value), (key, value)]-->
+              <tr>  <!--每一行是一个<tr>-->
+                  <th>{{ key }}</th>  <!--<th>是标题, <td>是内容-->
+                  <td>{{ value }}</td>
+              </tr>
+          {% endfor %}
+      </table>
+  </body>
+  </html>
+  ```
+
+## Echarts应用
+
+
+
+
+
+## WorldCloud应用
+
+
+
+
+
+## 项目说明
+

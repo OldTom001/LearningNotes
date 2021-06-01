@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <table border = 1>  <!--border = 1显示边框<tr>-->
+        {% for key, value in result.items() %}  <!--[(key, value), (key, value), (key, value)]-->
+            <tr>  <!--每一行是一个<tr>-->
+                <th>{{ key }}</th>  <!--<th>是标题, <td>是内容-->
+                <td>{{ value }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

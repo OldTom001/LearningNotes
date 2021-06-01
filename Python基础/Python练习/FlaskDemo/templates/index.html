@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    欢迎光临, 今天是{{ var }}. <br/>
+    今天值班的是:<br/>
+    {% for data in list %}
+        <li>{{ data }}</li>
+    {% endfor %}
+
+    任务:<br/>   <!--了解如何在页面打印表格, 以及如何迭代-->
+    <table border = 1>  <!--border = 1显示边框<tr>-->
+        {% for key, value in task.items() %}  <!--[(key, value), (key, value), (key, value)]-->
+            <tr>  <!--每一行是一个<tr>-->
+            <td>{{ key }}</td>  <!--每一个单元格是一个<td>-->
+            <td>{{ value }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{#<form action="http://localhost:5000/result" method="post">#}  <!--不要把路由写死-->
+<form action="{{ url_for('result') }}" method="post">  <!--url_for()会动态获取当前根路径,然后在后面添加/result-->
+    <p>姓名: <input type = "text" name = "姓名"></p>
+    <p>年龄: <input type = "text" name = "年龄"></p>
+    <p>性别: <input type = "text" name = "性别"></p>
+    <p>地址: <input type = "text" name = "地址"></p>
+    <p><input type = "submit" value = "提交"></p>
+</form>
+
+</body>
+</html>
