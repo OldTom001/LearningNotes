@@ -1569,17 +1569,85 @@ if __name__ == '__main__':
   </html>
   ```
 
+### 基于html模板制作豆瓣电影Top250数据分析网站
+
+表格布局[Bootstrap 表格 | 菜鸟教程 (runoob.com)](https://www.runoob.com/bootstrap/bootstrap-tables.html)
+
+模板文件‪: \douban_flask\templates\temp.html
+
+```python
+from flask import Flask, render_template
+import sqlite3
+
+app = Flask(__name__)
+
+
+# 默认页
+@app.route('/')
+def index():
+    return render_template("index.html")
+
+
+# 首页
+@app.route('/index')
+def home():
+    # return render_template("index.html")
+    return index()
+
+
+# 电影页
+@app.route('/movie')
+def movie():
+    movieList = []
+    con = sqlite3.connect("豆瓣电影Top250.db")
+    cur = con.cursor()
+    sql = "select * from movie250"
+    data = cur.execute(sql)
+    for item in data:
+        movieList.append(item)
+    cur.close()
+    con.close()
+    return render_template("movie.html", movies=movieList)
+
+
+# 评分页
+@app.route('/score')
+def score():
+    return render_template("score.html")
+
+
+#词云页
+@app.route('/word')
+def word():
+    return render_template("word.html")
+
+
+# 团队页
+@app.route('/team')
+def team():
+    return render_template("team.html")
+
+
+if __name__ == '__main__':
+    app.run()
+
+```
+
+
+
 ## Echarts应用
 
+将echarts.min.js复制到工程目录下
 
+![image-20210603200730264](Python基础.assets/image-20210603200730264.png)
 
+新建一个网页测试Echarts, 网页路径/templates/test/testEcharts.html, 然后将echarts.min.js复制到工程目录下
 
+![image-20210603201032436](Python基础.assets/image-20210603201032436.png)
 
-## WorldCloud应用
+然后按照[ECharts教程](https://echarts.apache.org/zh/tutorial.html#5 分钟上手 ECharts)添加相应的js代码, 在本地文件中打开html文件, 即可观察绘图效果
 
+![image-20210603201800402](Python基础.assets/image-20210603201800402.png)
 
-
-
-
-## 项目说明
+学习使用ECharts可以看教程中的ECharts基础概念概览
 
