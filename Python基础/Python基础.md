@@ -1569,7 +1569,7 @@ if __name__ == '__main__':
   </html>
   ```
 
-### 基于html模板制作豆瓣电影Top250数据分析网站
+### 基于html模板制作豆瓣电影Top250数据分析网站首页
 
 表格布局[Bootstrap 表格 | 菜鸟教程 (runoob.com)](https://www.runoob.com/bootstrap/bootstrap-tables.html)
 
@@ -1635,7 +1635,7 @@ if __name__ == '__main__':
 
 
 
-## Echarts应用
+## Echarts
 
 将echarts.min.js复制到工程目录下
 
@@ -1649,5 +1649,147 @@ if __name__ == '__main__':
 
 ![image-20210603201800402](Python基础.assets/image-20210603201800402.png)
 
-学习使用ECharts可以看教程中的ECharts基础概念概览
+学习使用ECharts可以看教程中的ECharts基础概念概览, 文档-配置项可以查询关键字的含义
+
+统计每个评分的电影数量, 并用ECharts图表在评分页面中显示
+
+```python
+@app.route('/score')
+def score():
+    score = []  # 评分
+    number = []  # 每个评分的电影数量
+    con = sqlite3.connect("豆瓣电影Top250.db")
+    cur = con.cursor()
+    # 从数据库中提取评分和每个评分对应电影数量
+    sql = "select score, count(score) from movie250 group by score"
+    data = cur.execute(sql)
+    # 根据提取结果构造两个列表
+    for item in data:
+        score.append(str(item[0]))  # 不转换成字符串也可
+        number.append(item[1])
+
+    cur.close()
+    con.close()
+    return render_template("score.html", score=score, number=number)
+```
+
+Echarts图表源代码
+
+```javascript
+<script type="text/javascript">
+    var dom = document.getElementById("main");
+    var myChart = echarts.init(dom);
+    var app = {};
+
+    var option;
+
+    option = {
+
+        color:['#3398db'],
+        tooltip:{
+            trigger: 'axis',
+            axisPointer:{
+                type:'shadow'
+            }
+        },
+        grid: {
+            left: '3%',
+            right:'3%',
+            bottom:'3%',
+            containLabel:true,
+        },
+        xAxis: {
+            type: 'category',
+            {#字符串需要tojson操作#}
+            data: {{ score|tojson }}
+            {#data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']    #}
+        },
+        yAxis: {
+            type: 'value'
+        },
+        series: [{
+            data: {{ number }},
+            {#data: [120, 200, 150, 80, 70, 110, 130],#}
+            type: 'bar',
+            barWidth: '60%'
+        }]
+    };
+
+    if (option && typeof option === 'object') {
+        myChart.setOption(option);
+    }
+
+</script>
+```
+
+## WordCloud
+
+可以独立应用的Python程序, 可以生成指定样式的词云
+
+```python
+# -*- coding = utf-8 -*-
+# @Time: 2021/6/4 16:15
+# @Author: ZSL
+# @File: testCloud.py
+# @Software: PyCharm
+
+import jieba  # 分词
+from matplotlib import pyplot as plt  # 绘图, 数据可视化
+from wordcloud import WordCloud, STOPWORDS  # 词云
+from PIL import Image  # 图片处理
+import numpy as np  # 矩阵运算
+import sqlite3  # 数据库
+
+
+con = sqlite3.connect('豆瓣电影Top250.db')
+cur = con.cursor()
+sql = 'select introduction from movie250'
+data = cur.execute(sql)
+text = ''
+for item in data:
+    text = text + item[0]
+# print(text)
+cur.close()
+con.close()
+
+# 分词, 将句子拆分成一个一个词, 用空格隔开
+cut = jieba.cut(text)
+string = ''
+# 去除单字
+for everyWord in cut:
+    if len(everyWord) == 1:
+        continue
+    string = string + everyWord + ' '
+    # string = ' '.join([string, everyWord])  # 和上面的语句效果一样
+print(string) # 打印分词结果
+
+img = Image.open(r'.\static\assets\img\tree.jpg')  # 打开遮罩图片
+img_array = np.array(img)  # 将图片转换成数组
+
+wc = WordCloud(
+    background_color='white',
+    mask=img_array,
+    font_path="msyh.ttc",  # 字体所在位置:C:\Windows\Fonts
+    stopwords=STOPWORDS
+)
+wc.generate_from_text(string)  # 生成词云图片
+fig = plt.figure(1)
+plt.imshow(wc)
+plt.axis('off')  # 是否显示坐标轴
+
+# plt.show()  # 显示生成的词云图片
+
+plt.savefig(r'.\static\assets\img\word.jpg', dpi=500)
+
+```
+
+保存词云图片, 并插入网页中, 即可完成数据可视化部分最后一项工作
+
+# 完结
+
+
+
+
+
+
 
