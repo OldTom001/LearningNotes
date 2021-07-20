@@ -6,7 +6,7 @@ public class MyThread extends Thread{
     public MyThread() {
     }
     public MyThread(String name) {
-        super(name);
+        super(name);  //访问父类（Thread类）的带参构造方法
     }
 
     @Override
