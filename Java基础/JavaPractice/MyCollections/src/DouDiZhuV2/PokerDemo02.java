@@ -43,7 +43,7 @@ public class PokerDemo02 {
 //        发牌
         for(int i = 0; i < array.size(); i++) {
             if(i >= array.size() - 3) {
-                dp.add(i);
+                dp.add(array.get(i));
             }
             else if(i%3 == 0) {
                 swk.add(array.get(i));

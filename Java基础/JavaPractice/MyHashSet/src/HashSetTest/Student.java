@@ -32,6 +32,8 @@ public class Student {
     }
 //    重写equals和hashCode方法, 保证hashSet中元素的唯一性
 //    重写方法为Alt + Insert直接生成
+//    默认的equals方法在Object类中，只比较地址值
+//    默认的hashcode方法也在Object类中，是一个抽象方法
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

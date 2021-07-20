@@ -24,5 +24,15 @@ public class StudentDemo {
             Student ss = it.next();
             System.out.println(ss.getName() + ", " + ss.getAge());
         }
+
+//        创建为Collection对象要用迭代器，若创建为ArrayList则可直接遍历，如下
+        ArrayList<Student> al = new ArrayList<>();
+        al.add(s1);
+        al.add(s2);
+        al.add(s3);
+        for(int i = 0; i < al.size(); i ++){
+            System.out.println("姓名： " + al.get(i).getName() + ", 年龄： " + al.get(i).getAge());
+        }
+
     }
 }

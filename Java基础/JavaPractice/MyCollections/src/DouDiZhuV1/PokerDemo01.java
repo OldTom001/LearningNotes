@@ -27,7 +27,7 @@ public class PokerDemo01 {
         ArrayList<String> swk = new ArrayList<>();
         ArrayList<String> zwn = new ArrayList<>();
         ArrayList<String> swj = new ArrayList<>();
-        ArrayList<String> dp = new ArrayList<>();
+        ArrayList<String> dp = new ArrayList<>();  //底牌
 
         for(int i = 0; i < array.size(); i++){
             String poker = array.get(i);
