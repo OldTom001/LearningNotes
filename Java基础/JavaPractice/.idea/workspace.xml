@@ -1,13 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0d6cdaf5-6ccd-4e3b-9aae-8721725cc261" name="Default Changelist" comment="加入案例: Object类中toString方法的重写">
-      <change afterPath="$PROJECT_DIR$/MyString/src/StringTest/StringSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/src/MyTest/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/MyTest/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCollection/src/CollectionTest/StudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyCollection/src/CollectionTest/StudentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCollections/src/DouDiZhuV1/PokerDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyCollections/src/DouDiZhuV1/PokerDemo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHashSet/src/HashSetTest/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyHashSet/src/HashSetTest/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHashSet/src/TreeSetTest/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyHashSet/src/TreeSetTest/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySetNested/src/SetNested01/SetNestedDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/MySetNested/src/SetNested01/SetNestedDemo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyAbstractClass/AbstractTest/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyAbstractClass/AbstractTest/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyAbstractClass/AbstractTest/AnimalDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyAbstractClass/AbstractTest/AnimalDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyAbstractClass/AbstractTest/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyAbstractClass/AbstractTest/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyAbstractClass/AbstractTest/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyAbstractClass/AbstractTest/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyArrayList/ArrayListTest/ArrayListTest01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyArrayList/ArrayListTest/ArrayListTest01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyArrayList/ArrayListTest/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyArrayList/ArrayListTest/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyClass/ClassTest/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyClass/ClassTest/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyClass/ClassTest/PhoneDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyClass/ClassTest/PhoneDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyClass/ConstructionMethod/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyClass/ConstructionMethod/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyClass/ConstructionMethod/StudentDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyClass/ConstructionMethod/StudentDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyClass/StandardClass/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyClass/StandardClass/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyClass/StandardClass/StudentDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyClass/StandardClass/StudentDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyExtends/ExtendsTest/ExtendsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyExtends/ExtendsTest/ExtendsDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyExtends/ExtendsTest/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyExtends/ExtendsTest/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyExtends/ExtendsTest/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyExtends/ExtendsTest/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyExtends/ExtendsTest/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyExtends/ExtendsTest/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest/AnimalDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest/AnimalDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest/Jumpping.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest/Jumpping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/BasketCoach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/BasketCoach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/BasketPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/BasketPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/Coach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/Coach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/English.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/English.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/InterfaceDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/InterfaceDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/PingpangCoach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/PingpangCoach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/PingpangPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/PingpangPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyMethod/MethodTest/MTest01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyMethod/MethodTest/MTest01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyObject/ToStringTest/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyObject/ToStringTest/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyObject/ToStringTest/toStringDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyObject/ToStringTest/toStringDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyPolym/PolymTest/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPolym/PolymTest/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyPolym/PolymTest/AnimalDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPolym/PolymTest/AnimalDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyPolym/PolymTest/AnimalOpetator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPolym/PolymTest/AnimalOpetator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyPolym/PolymTest/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPolym/PolymTest/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyPolym/PolymTest/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPolym/PolymTest/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyString/StringTest/BigOrSmallOrNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyString/StringTest/BigOrSmallOrNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyString/StringTest/Reverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyString/StringTest/Reverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyString/StringTest/StringBuilder01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyString/StringTest/StringBuilder01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyString/StringTest/StringBuilder02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyString/StringTest/StringBuilder02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyString/StringTest/StringBuilder03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyString/StringTest/StringBuilder03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyString/StringTest/StringBuilder04.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyString/StringTest/StringBuilder04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyString/StringTest/StringCombine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyString/StringTest/StringCombine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyString/StringTest/StringSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyString/StringTest/StringSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyString/StringTest/traversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyString/StringTest/traversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudentManager/MyManager/Manager01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentManager/MyManager/Manager01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudentManager/MyManager/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentManager/MyManager/Student.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,193 +83,6 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1704431247">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="iml" value="1" />
-          <entry key="java" value="15" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="15" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1657" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1657" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="340979108">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="9333" />
-          <entry key="txt" value="226" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="9333" />
-          <entry key="PLAIN_TEXT" value="226" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="69" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="69" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyInterface/src/InterfaceTest02/InterfaceDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyObject/src/ToStringTest/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-              <folding>
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyObject/src/ToStringTest/toStringDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/src/MyTest/DebugTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/src/MyTest/Test01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MyString/src/StringTest/StringSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/software/DEVELOP/JDK/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="2420" column="35" lean-forward="true" selection-start-line="2420" selection-start-column="35" selection-end-line="2420" selection-end-column="35" />
-              <folding>
-                <element signature="e#94598#94599#0" expanded="true" />
-                <element signature="e#94636#94637#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyArrayList/src/ArrayListTest/ArrayListTest01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" selection-start-line="4" selection-end-line="5" />
-              <folding>
-                <element signature="e#279#288#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyArrayList/src/ArrayListTest/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" selection-start-line="6" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyInterface/src/InterfaceTest02/PingpangCoach.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-              <folding>
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -223,13 +92,25 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="12029f7045093798037a2061f44d2da7edb8131b" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
     <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///usr/lib/jvm/jdk-11.0.11/lib/src.zip!/java.base/java/util/HashSet.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///usr/lib/jvm/jdk-11.0.11/lib/src.zip!/java.base/java/util/Set.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -306,6 +187,7 @@
     <option name="width" value="1153" />
     <option name="height" value="613" />
   </component>
+  <component name="ProjectId" id="1vWf7ek4chC0YaFP8pIxnOIqi8C" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -382,37 +264,29 @@
       <pane id="AndroidView" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603878459514" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MyMethod" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MyCollection" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.StringSort">
-    <configuration name="AnimalDemo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterfaceTest.AnimalDemo" />
-      <module name="MyInterface" />
+  <component name="RunManager" selected="Application.PokerDemo02">
+    <configuration name="PokerDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DouDiZhuV2.PokerDemo02" />
+      <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterfaceTest.*" />
+          <option name="PATTERN" value="DouDiZhuV2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -420,25 +294,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfaceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterfaceTest02.InterfaceDemo" />
-      <module name="MyInterface" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterfaceTest02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="StringSort" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StringTest.StringSort" />
       <module name="MyString" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="StringTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionTest.StudentDemo" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CollectionTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -459,12 +333,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="toStringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ToStringTest.toStringDemo" />
-      <module name="MyObject" />
+    <configuration name="TreeSetDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TreeSetTest02.TreeSetDemo" />
+      <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ToStringTest.*" />
+          <option name="PATTERN" value="TreeSetTest02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TreeSetTest.TreeSetDemo" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TreeSetTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -473,22 +360,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AnimalDemo (2)" />
-      <item itemvalue="Application.InterfaceDemo" />
-      <item itemvalue="Application.toStringDemo" />
-      <item itemvalue="Application.Test01" />
       <item itemvalue="Application.StringSort" />
+      <item itemvalue="Application.Test01" />
+      <item itemvalue="Application.StudentDemo" />
+      <item itemvalue="Application.TreeSetDemo" />
+      <item itemvalue="Application.TreeSetDemo (1)" />
+      <item itemvalue="Application.PokerDemo02" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringSort" />
+        <item itemvalue="Application.PokerDemo02" />
+        <item itemvalue="Application.TreeSetDemo (1)" />
+        <item itemvalue="Application.TreeSetDemo" />
+        <item itemvalue="Application.StudentDemo" />
         <item itemvalue="Application.Test01" />
-        <item itemvalue="Application.toStringDemo" />
-        <item itemvalue="Application.InterfaceDemo" />
-        <item itemvalue="Application.AnimalDemo (2)" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -643,31 +532,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="加了一个哈哈哈" />
     <MESSAGE value="Revert &quot;加了一行注释&quot;&#10;&#10;This reverts commit ac2396b" />
     <MESSAGE value="修改3" />

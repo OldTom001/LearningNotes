@@ -32,8 +32,5 @@ public class SetNestedDemo01 {
                 System.out.println(key + ", " + value);
             }
         }
-
-
-
     }
 }
