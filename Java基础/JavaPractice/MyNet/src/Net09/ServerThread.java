@@ -16,7 +16,7 @@ public class ServerThread implements Runnable {
 
             BufferedReader br = new BufferedReader(new InputStreamReader(s.getInputStream()));
 //            BufferedWriter bw = new BufferedWriter(new FileWriter("MyNet\\srcNet07"));
-//            解决名称冲突问题, 没开启一个客户端就新建一个文件.
+//            解决名称冲突问题, 每开启一个客户端就新建一个文件.
             int count = 0;
             File file = new File("MyNet\\net07[" + count + "]");
             while (file.exists()) {
