@@ -22,7 +22,7 @@ public class UDPSendDemo {
             if ("886".equals(line)) {
                 break;
             }
-//            大包发送数据
+//            打包发送数据
             byte[] bys = line.getBytes();
 //            DatagramPacket​(byte[] buf, int length, InetAddress address, int port)
 //            指定接收主机和端口号
