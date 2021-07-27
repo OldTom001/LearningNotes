@@ -2,18 +2,37 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaPractice.iml" filepath="$PROJECT_DIR$/JavaPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaPractice.iml" filepath="$PROJECT_DIR$/.idea/JavaPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/My1/My1.iml" filepath="$PROJECT_DIR$/My1/My1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/My2/My2.iml" filepath="$PROJECT_DIR$/My2/My2.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyAbstractClass/MyAbstractClass.iml" filepath="$PROJECT_DIR$/MyAbstractClass/MyAbstractClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyArrayList/MyArrayList.iml" filepath="$PROJECT_DIR$/MyArrayList/MyArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyCalendar/MyCalendar.iml" filepath="$PROJECT_DIR$/MyCalendar/MyCalendar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyCharStream/MyCharStream.iml" filepath="$PROJECT_DIR$/MyCharStream/MyCharStream.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyClass/MyClass.iml" filepath="$PROJECT_DIR$/MyClass/MyClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyCollection/MyCollection.iml" filepath="$PROJECT_DIR$/MyCollection/MyCollection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyCollections/MyCollections.iml" filepath="$PROJECT_DIR$/MyCollections/MyCollections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyDate/MyDate.iml" filepath="$PROJECT_DIR$/MyDate/MyDate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyException/MyException.iml" filepath="$PROJECT_DIR$/MyException/MyException.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyExtends/MyExtends.iml" filepath="$PROJECT_DIR$/MyExtends/MyExtends.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyHashSet/MyHashSet.iml" filepath="$PROJECT_DIR$/MyHashSet/MyHashSet.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyInterface/MyInterface.iml" filepath="$PROJECT_DIR$/MyInterface/MyInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyList/MyList.iml" filepath="$PROJECT_DIR$/MyList/MyList.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyMethod/MyMethod.iml" filepath="$PROJECT_DIR$/MyMethod/MyMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyMethodReference/MyMethodReference.iml" filepath="$PROJECT_DIR$/MyMethodReference/MyMethodReference.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyNet/MyNet.iml" filepath="$PROJECT_DIR$/MyNet/MyNet.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyObject/MyObject.iml" filepath="$PROJECT_DIR$/MyObject/MyObject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyOtherStream/MyOtherStream.iml" filepath="$PROJECT_DIR$/MyOtherStream/MyOtherStream.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyPolym/MyPolym.iml" filepath="$PROJECT_DIR$/MyPolym/MyPolym.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyRecursion/MyRecursion.iml" filepath="$PROJECT_DIR$/MyRecursion/MyRecursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyReflect/MyReflect.iml" filepath="$PROJECT_DIR$/MyReflect/MyReflect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MySetNested/MySetNested.iml" filepath="$PROJECT_DIR$/MySetNested/MySetNested.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyStream/MyStream.iml" filepath="$PROJECT_DIR$/MyStream/MyStream.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyString/MyString.iml" filepath="$PROJECT_DIR$/MyString/MyString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyThread/MyThread.iml" filepath="$PROJECT_DIR$/MyThread/MyThread.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudentManager/StudentManager.iml" filepath="$PROJECT_DIR$/StudentManager/StudentManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myByteStream/myByteStream.iml" filepath="$PROJECT_DIR$/myByteStream/myByteStream.iml" />
     </modules>
   </component>
 </project>

@@ -24,8 +24,9 @@ public class ConsumerDemo {
         OperatorString("猪悟能",s -> System.out.println(s), s -> System.out.println(new StringBuilder(s).reverse().toString()));
 
     }
-//        用两种方法操作同一个字符串
-    private static void OperatorString(String name, Consumer<String> con1, Consumer<String> con2) {
+//        用两种方法操作同一个字符串，con1和con2各代表一种方法，由lambda表达式给出
+    private static void OperatorString(String name, Consumer<String> con1,
+                                       Consumer<String> con2) {
 
 //        con1.accept(name);
 //        con2.accept(name);

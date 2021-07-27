@@ -33,6 +33,5 @@ public class StudentDemo {
         for(int i = 0; i < al.size(); i ++){
             System.out.println("姓名： " + al.get(i).getName() + ", 年龄： " + al.get(i).getAge());
         }
-
     }
 }

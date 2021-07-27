@@ -1,344 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d6cdaf5-6ccd-4e3b-9aae-8721725cc261" name="Default Changelist" comment="加入案例: Object类中toString方法的重写">
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/JavaPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyObject/src/ToStringTest/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyObject/src/ToStringTest/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyThread/src/Thread01/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyThread/src/Thread01/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/src/MyTest/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/MyTest/Test01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My1/P1/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My1/P2/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My1/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My2/P3/ModuleDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My2/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyCalendar/CalendarTest/CalendarDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyCharStream/CharStream01/OutputStreamWriterDemo01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyCharStream/CharStream02/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyCharStream/CharStream02/TreeSetToFileDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyCharStream/CharStream02/TreeSetToFileDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyCharStream/CharStream03/CopyFoldersDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyCollection/CollectionTest/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyCollection/CollectionTest/StudentDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyCollections/DouDiZhuV1/PokerDemo01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyCollections/DouDiZhuV2/PokerDemo02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyCollections/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDate/DateTransform/DateDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyDate/DateTransform/DateUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyException/ExceptionTest/ScoreException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyException/ExceptionTest/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyException/ExceptionTest/TeacherTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyList/ListTest/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyList/ListTest/StudentDeno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyMethodReference/META-INF/MyMethodReference.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyMethodReference/MethodReference01/Converter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyMethodReference/MethodReference01/ConverterDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyMethodReference/MethodReference02/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyMethodReference/MethodReference02/StudentBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyMethodReference/MethodReference02/StudentDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyMethodReference/MethodReference03/SupplierTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyMethodReference/MethodReference04/ConsumerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyMethodReference/MethodReference04/ConsumerDemo02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyMethodReference/MethodReference05/PredicateDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyNet/Net01/InetAddressDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyNet/Net02/UDPReceiveDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyNet/Net02/UDPSendDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyNet/Net03/UDPReceiverDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyNet/Net03/UDPSendDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyNet/Net04/ClientDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyNet/Net04/ServerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyNet/Net05/ClientDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyNet/Net05/ServerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyNet/Net06/ClientDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyNet/Net06/ServerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyNet/Net07/ClientDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyNet/Net07/ServerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyNet/Net08/ClientDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyNet/Net08/ServerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyNet/Net09/ClientDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyNet/Net09/ServerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyNet/Net09/ServerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyObject/ToStringTest/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyObject/ToStringTest/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyObject/ToStringTest/toStringDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyObject/ToStringTest/toStringDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyOtherStream/Properties/GuessNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyOtherStream/Properties/GuessNumberDemo.class" beforeDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPractice.iml" afterDir="false" />
+    <list default="true" id="04f0b081-b21e-4e27-bf06-d3e5dc4b56d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/MyCollection/src/CollectionTest/StudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyCollection/src/CollectionTest/StudentDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCollections/src/DouDiZhuV1/PokerDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyCollections/src/DouDiZhuV1/PokerDemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHashSet/src/HashSetTest/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyHashSet/src/HashSetTest/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHashSet/src/TreeSetTest/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyHashSet/src/TreeSetTest/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySetNested/src/SetNested01/SetNestedDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/MySetNested/src/SetNested01/SetNestedDemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyAbstractClass/AbstractTest/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyAbstractClass/AbstractTest/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyAbstractClass/AbstractTest/AnimalDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyAbstractClass/AbstractTest/AnimalDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyAbstractClass/AbstractTest/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyAbstractClass/AbstractTest/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyAbstractClass/AbstractTest/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyAbstractClass/AbstractTest/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyArrayList/ArrayListTest/ArrayListTest01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyArrayList/ArrayListTest/ArrayListTest01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyArrayList/ArrayListTest/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyArrayList/ArrayListTest/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyClass/ClassTest/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyClass/ClassTest/Phone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyClass/ClassTest/PhoneDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyClass/ClassTest/PhoneDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyClass/ConstructionMethod/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyClass/ConstructionMethod/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyClass/ConstructionMethod/StudentDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyClass/ConstructionMethod/StudentDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyClass/StandardClass/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyClass/StandardClass/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyClass/StandardClass/StudentDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyClass/StandardClass/StudentDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyExtends/ExtendsTest/ExtendsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyExtends/ExtendsTest/ExtendsDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyExtends/ExtendsTest/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyExtends/ExtendsTest/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyExtends/ExtendsTest/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyExtends/ExtendsTest/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyExtends/ExtendsTest/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyExtends/ExtendsTest/Teacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest/AnimalDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest/AnimalDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest/Jumpping.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest/Jumpping.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/BasketCoach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/BasketCoach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/BasketPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/BasketPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/Coach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/Coach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/English.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/English.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/InterfaceDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/InterfaceDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/PingpangCoach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/PingpangCoach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/PingpangPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/PingpangPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyInterface/InterfaceTest02/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyMethod/MethodTest/MTest01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyMethod/MethodTest/MTest01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyObject/ToStringTest/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyObject/ToStringTest/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyObject/ToStringTest/toStringDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyObject/ToStringTest/toStringDemo.class" afterDir="false" />
->>>>>>> 5d37caaffaae36d3d4d6afcea3182c0b30f8d332
-      <change beforePath="$PROJECT_DIR$/out/production/MyPolym/PolymTest/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPolym/PolymTest/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyPolym/PolymTest/AnimalDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPolym/PolymTest/AnimalDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyPolym/PolymTest/AnimalOpetator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPolym/PolymTest/AnimalOpetator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyPolym/PolymTest/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPolym/PolymTest/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyPolym/PolymTest/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyPolym/PolymTest/Dog.class" afterDir="false" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/out/production/MyRecursion/Traversal/RecursionDemo01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyReflect/META-INF/MyReflect.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyReflect/Reflect01/ReflectDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyReflect/Reflect01/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyReflect/Reflect02/ReflectDemo01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyReflect/Reflect03/ReflectDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyReflect/Reflect04/ReflectDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyReflect/Reflect04/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyReflect/Reflect04/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MySet/HashSetTest/HashSetDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MySet/HashSetTest/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MySet/TreeSetTest/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MySet/TreeSetTest/TreeSetDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MySet/TreeSetTest/TreeSetDemo02$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MySet/TreeSetTest/TreeSetDemo02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MySet/TreeSetTest02/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MySet/TreeSetTest02/TreeSetDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MySet/TreeSetTest02/comImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MySetNested/SetNested01/SetNestedDemo01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyStream/Stream01/Actor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyStream/Stream01/StreamDemo.class" beforeDir="false" />
-=======
->>>>>>> 5d37caaffaae36d3d4d6afcea3182c0b30f8d332
-      <change beforePath="$PROJECT_DIR$/out/production/MyString/StringTest/BigOrSmallOrNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyString/StringTest/BigOrSmallOrNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyString/StringTest/Reverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyString/StringTest/Reverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyString/StringTest/StringBuilder01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyString/StringTest/StringBuilder01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyString/StringTest/StringBuilder02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyString/StringTest/StringBuilder02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyString/StringTest/StringBuilder03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyString/StringTest/StringBuilder03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyString/StringTest/StringBuilder04.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyString/StringTest/StringBuilder04.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyString/StringTest/StringCombine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyString/StringTest/StringCombine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyString/StringTest/StringSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyString/StringTest/StringSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyString/StringTest/traversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyString/StringTest/traversal.class" afterDir="false" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/out/production/MyThread/META-INF/MyThread.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyThread/Thread01/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyThread/Thread01/MyThreadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyThread/Thread02/SellTicket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyThread/Thread02/SellTicketDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyThread/Thread03/Box.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyThread/Thread03/BoxDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyThread/Thread03/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyThread/Thread03/Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManager/MyManager/Manager01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentManager/MyManager/Manager01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManager/MyManager/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentManager/MyManager/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/MyTest/Test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/MyTest/Test01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myByteStream/ByteStream01/CopyTxtDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/myByteStream/ByteStream02/CopyPngDemo.class" beforeDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManager/MyManager/Manager01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentManager/MyManager/Manager01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentManager/MyManager/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentManager/MyManager/Student.class" afterDir="false" />
->>>>>>> 5d37caaffaae36d3d4d6afcea3182c0b30f8d332
+      <change beforePath="$PROJECT_DIR$/MyMethodReference/src/MethodReference01/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyMethodReference/src/MethodReference01/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyMethodReference/src/MethodReference02/StudentBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyMethodReference/src/MethodReference02/StudentBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyMethodReference/src/MethodReference04/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyMethodReference/src/MethodReference04/ConsumerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyReflect/MyReflect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyReflect/MyReflect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Test.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$/.." value="12029f7045093798037a2061f44d2da7edb8131b" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-    <option name="RESET_MODE" value="MIXED" />
   </component>
-<<<<<<< HEAD
-  <component name="ProjectId" id="1vQzpKivloq7pD6wIzEcqbVbItE" />
-=======
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar:///usr/lib/jvm/jdk-11.0.11/lib/src.zip!/java.base/java/util/HashSet.java" root0="SKIP_INSPECTION" />
-    <setting file="jar:///usr/lib/jvm/jdk-11.0.11/lib/src.zip!/java.base/java/util/Set.java" root0="SKIP_INSPECTION" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/MyClass/src/ClassTest/PhoneDemo.java" />
-        <option value="$PROJECT_DIR$/MyClass/src/ConstructionMethod/StudentDemo.java" />
-        <option value="$PROJECT_DIR$/MyClass/src/ConstructionMethod/Student.java" />
-        <option value="$PROJECT_DIR$/MyClass/src/StandardClass/Student.java" />
-        <option value="$PROJECT_DIR$/MyClass/src/StandardClass/StudentDemo.java" />
-        <option value="$PROJECT_DIR$/MyString/src/StringTest/traversal.java" />
-        <option value="$PROJECT_DIR$/MyString/src/StringTest/BigOrSmallOrNum.java" />
-        <option value="$PROJECT_DIR$/MyString/src/StringTest/StringCombine.java" />
-        <option value="$PROJECT_DIR$/MyString/src/StringTest/Reverse.java" />
-        <option value="$PROJECT_DIR$/MyString/src/StringTest/StringBuilder01.java" />
-        <option value="$PROJECT_DIR$/MyString/src/StringTest/StringBuilder02.java" />
-        <option value="$PROJECT_DIR$/MyString/src/StringTest/StringBuilder03.java" />
-        <option value="$PROJECT_DIR$/MyString/src/StringTest/StringBuilder04.java" />
-        <option value="$PROJECT_DIR$/MyArrayList/src/ArrayListTest/ArrayTest01.java" />
-        <option value="$PROJECT_DIR$/MyArrayList/src/ArrayListTest/Student.java" />
-        <option value="$PROJECT_DIR$/StudentManager/src/MyManager/Student.java" />
-        <option value="$PROJECT_DIR$/StudentManager/src/MyManager/Manager01.java" />
-        <option value="$PROJECT_DIR$/MyExtends/src/ExtendsTest/Person.java" />
-        <option value="$PROJECT_DIR$/MyExtends/src/ExtendsTest/Student.java" />
-        <option value="$PROJECT_DIR$/MyExtends/src/ExtendsTest/Teacher.java" />
-        <option value="$PROJECT_DIR$/MyExtends/src/ExtendsTest/ExtendsDemo.java" />
-        <option value="$PROJECT_DIR$/MyPolym/src/PolymTest/Animal.java" />
-        <option value="$PROJECT_DIR$/MyPolym/src/PolymTest/Cat.java" />
-        <option value="$PROJECT_DIR$/MyPolym/src/PolymTest/Dog.java" />
-        <option value="$PROJECT_DIR$/MyPolym/src/PolymTest/AnimalDemo.java" />
-        <option value="$PROJECT_DIR$/MyPolym/src/PolymTest/AnimalOpetator.java" />
-        <option value="$PROJECT_DIR$/MyAbstractClass/src/AbstractTest/Cat.java" />
-        <option value="$PROJECT_DIR$/MyAbstractClass/src/AbstractTest/Dog.java" />
-        <option value="$PROJECT_DIR$/MyAbstractClass/src/AbstractTest/AnimalDemo.java" />
-        <option value="$PROJECT_DIR$/MyAbstractClass/src/AbstractTest/Animal.java" />
-        <option value="$PROJECT_DIR$/MyInterface/src/InterfaceTest/Jumpping.java" />
-        <option value="$PROJECT_DIR$/MyInterface/src/InterfaceTest/Animal.java" />
-        <option value="$PROJECT_DIR$/MyInterface/src/InterfaceTest/Dog.java" />
-        <option value="$PROJECT_DIR$/MyInterface/src/InterfaceTest/Cat.java" />
-        <option value="$PROJECT_DIR$/MyInterface/src/InterfaceTest/AnimalDemo.java" />
-        <option value="$PROJECT_DIR$/MyInterface/src/InterfaceTest02/SpeakEnglish.java" />
-        <option value="$PROJECT_DIR$/MyInterface/src/InterfaceTest02/LearnEnglish.java" />
-        <option value="$PROJECT_DIR$/MyInterface/src/InterfaceTest02/English.java" />
-        <option value="$PROJECT_DIR$/MyInterface/src/InterfaceTest02/Person.java" />
-        <option value="$PROJECT_DIR$/MyInterface/src/InterfaceTest02/Coach.java" />
-        <option value="$PROJECT_DIR$/MyInterface/src/InterfaceTest02/Player.java" />
-        <option value="$PROJECT_DIR$/MyInterface/src/InterfaceTest02/BasketPlayer.java" />
-        <option value="$PROJECT_DIR$/MyInterface/src/InterfaceTest02/BasketCoach.java" />
-        <option value="$PROJECT_DIR$/MyInterface/src/InterfaceTest02/PingpangCoach.java" />
-        <option value="$PROJECT_DIR$/MyInterface/src/InterfaceTest02/PingpangPlayer.java" />
-        <option value="$PROJECT_DIR$/MyInterface/src/InterfaceTest02/InterfaceDemo.java" />
-        <option value="$PROJECT_DIR$/MyObject/src/ToStringTest/toStringDemo.java" />
-        <option value="$PROJECT_DIR$/MyObject/src/ToStringTest/Student.java" />
-        <option value="$PROJECT_DIR$/MyArrayList/src/ArrayListTest/ArrayListTest01.java" />
-        <option value="$PROJECT_DIR$/Test/src/MyTest/Test01.java" />
-        <option value="$PROJECT_DIR$/MyString/src/StringTest/StringSort.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="322" />
-    <option name="y" value="165" />
-    <option name="width" value="1153" />
-    <option name="height" value="613" />
-  </component>
-  <component name="ProjectId" id="1vWf7ek4chC0YaFP8pIxnOIqi8C" />
->>>>>>> 5d37caaffaae36d3d4d6afcea3182c0b30f8d332
+  <component name="ProjectId" id="1vbgPjekVWxaTWMmdVAe2hYhwLK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603878459514" />
-<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-=======
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MyCollection" />
->>>>>>> 5d37caaffaae36d3d4d6afcea3182c0b30f8d332
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-<<<<<<< HEAD
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.BoxDemo">
-    <configuration name="BoxDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread03.BoxDemo" />
-      <module name="JavaPractice" />
+  <component name="RunManager" selected="Application.ReflectDemo01">
+    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodReference04.ConsumerDemo" />
+      <module name="MyMethodReference" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread03.*" />
-=======
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
-  </component>
-  <component name="RunManager" selected="Application.PokerDemo02">
-    <configuration name="PokerDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DouDiZhuV2.PokerDemo02" />
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DouDiZhuV2.*" />
->>>>>>> 5d37caaffaae36d3d4d6afcea3182c0b30f8d332
+          <option name="PATTERN" value="MethodReference04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -346,21 +49,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="CalendarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CalendarTest.CalendarDemo" />
-      <module name="JavaPractice" />
+    <configuration name="ConverterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodReference01.ConverterDemo" />
+      <module name="MyMethodReference" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CalendarTest.*" />
-=======
-    <configuration name="StringSort" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringTest.StringSort" />
-      <module name="MyString" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StringTest.*" />
->>>>>>> 5d37caaffaae36d3d4d6afcea3182c0b30f8d332
+          <option name="PATTERN" value="MethodReference01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -368,21 +62,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="DateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DateTransform.DateDemo" />
-      <module name="JavaPractice" />
+    <configuration name="ReflectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflect01.ReflectDemo" />
+      <module name="MyReflect" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DateTransform.*" />
-=======
+          <option name="PATTERN" value="Reflect01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflect02.ReflectDemo01" />
+      <module name="MyReflect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reflect02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionTest.StudentDemo" />
-      <module name="JavaPractice" />
+      <option name="MAIN_CLASS_NAME" value="MethodReference02.StudentDemo" />
+      <module name="MyMethodReference" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionTest.*" />
->>>>>>> 5d37caaffaae36d3d4d6afcea3182c0b30f8d332
+          <option name="PATTERN" value="MethodReference02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -390,264 +101,91 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread01.MyThreadDemo" />
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Thread01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< HEAD
-    <configuration name="SellTicketDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread02.SellTicketDemo" />
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Thread02.*" />
-=======
-    <configuration name="TreeSetDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TreeSetTest02.TreeSetDemo" />
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TreeSetTest02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TreeSetTest.TreeSetDemo" />
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TreeSetTest.*" />
->>>>>>> 5d37caaffaae36d3d4d6afcea3182c0b30f8d332
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-<<<<<<< HEAD
-      <item itemvalue="Application.DateDemo" />
-      <item itemvalue="Application.CalendarDemo" />
-      <item itemvalue="Application.MyThreadDemo" />
-      <item itemvalue="Application.SellTicketDemo" />
-      <item itemvalue="Application.BoxDemo" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BoxDemo" />
-        <item itemvalue="Application.SellTicketDemo" />
-        <item itemvalue="Application.MyThreadDemo" />
-        <item itemvalue="Application.CalendarDemo" />
-        <item itemvalue="Application.DateDemo" />
-=======
-      <item itemvalue="Application.StringSort" />
-      <item itemvalue="Application.Test01" />
-      <item itemvalue="Application.StudentDemo" />
-      <item itemvalue="Application.TreeSetDemo" />
-      <item itemvalue="Application.TreeSetDemo (1)" />
-      <item itemvalue="Application.PokerDemo02" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.PokerDemo02" />
-        <item itemvalue="Application.TreeSetDemo (1)" />
-        <item itemvalue="Application.TreeSetDemo" />
+        <item itemvalue="Application.ReflectDemo01" />
+        <item itemvalue="Application.ReflectDemo" />
+        <item itemvalue="Application.ConsumerDemo" />
+        <item itemvalue="Application.ConverterDemo" />
         <item itemvalue="Application.StudentDemo" />
-        <item itemvalue="Application.Test01" />
->>>>>>> 5d37caaffaae36d3d4d6afcea3182c0b30f8d332
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0d6cdaf5-6ccd-4e3b-9aae-8721725cc261" name="Default Changelist" comment="" />
-      <created>1603248678466</created>
+      <changelist id="04f0b081-b21e-4e27-bf06-d3e5dc4b56d1" name="Default Changelist" comment="" />
+      <created>1626836179506</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603248678466</updated>
-      <workItem from="1603248679763" duration="3434000" />
-      <workItem from="1603266327661" duration="2932000" />
-      <workItem from="1603280746258" duration="3011000" />
-      <workItem from="1603350442324" duration="121000" />
-      <workItem from="1603350587746" duration="2331000" />
-      <workItem from="1603689207292" duration="282000" />
-      <workItem from="1603697039845" duration="16998000" />
-      <workItem from="1603763793875" duration="13034000" />
-      <workItem from="1603856750784" duration="6447000" />
-      <workItem from="1626509286808" duration="8053000" />
-      <workItem from="1626594778946" duration="7401000" />
-      <workItem from="1626768512263" duration="10088000" />
+      <updated>1626836179506</updated>
+      <workItem from="1626836182462" duration="9000" />
+      <workItem from="1626836200660" duration="10793000" />
+      <workItem from="1626866823740" duration="1669000" />
+      <workItem from="1626869074689" duration="18000" />
+      <workItem from="1626953577459" duration="3454000" />
+      <workItem from="1627031215153" duration="1313000" />
+      <workItem from="1627036766533" duration="5000" />
+      <workItem from="1627103937629" duration="40000" />
     </task>
-    <task id="LOCAL-00001" summary="修改3">
-      <created>1603690474276</created>
+    <task id="LOCAL-00001" summary="修改错别字">
+      <created>1626842190612</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1603690474276</updated>
+      <updated>1626842190612</updated>
     </task>
-    <task id="LOCAL-00002" summary="修改3">
-      <created>1603690856434</created>
+    <task id="LOCAL-00002" summary="修改错别字">
+      <created>1626843388851</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1603690856434</updated>
+      <updated>1626843388851</updated>
     </task>
-    <task id="LOCAL-00003" summary="修改3">
-      <created>1603691128485</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1603691128485</updated>
-    </task>
-    <task id="LOCAL-00004" summary="加入字符串遍历案例">
-      <created>1603697712916</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1603697712916</updated>
-    </task>
-    <task id="LOCAL-00005" summary="加入案例: 统计字符串中大写字母小写字母以及数字的个数.BigOrSmallOrNum">
-      <created>1603698501697</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1603698501697</updated>
-    </task>
-    <task id="LOCAL-00006" summary="加入案例: 字符串拼接(StringCombine)与字符串反转(Reverse)">
-      <created>1603699710187</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1603699710187</updated>
-    </task>
-    <task id="LOCAL-00007" summary="加入案例: 字符串拼接(StringCombine)与字符串反转(Reverse)">
-      <created>1603703200997</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1603703200997</updated>
-    </task>
-    <task id="LOCAL-00008" summary="加入案例: 1-创建一个Stringbuilder; 2-使用append和reverse方法进行字符串构建与反转; 3-构建方法, 将数组拼接成字符串; 4-构建方法, 使字符串反转">
-      <created>1603713410242</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1603713410242</updated>
-    </task>
-    <task id="LOCAL-00009" summary="加入案例: 1-创建集合存储学生对象; 2-学生管理系统">
-      <created>1603723164465</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1603723164465</updated>
-    </task>
-    <task id="LOCAL-00010" summary="加入案例: 1-继承; 2-多态; 3-抽象类; 4-接口(1)猫和狗; 5-接口(2)运动员和教练">
-      <created>1603807209536</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1603807209536</updated>
-    </task>
-    <task id="LOCAL-00011" summary="加入案例: Object类中toString方法的重写">
-      <created>1603873888990</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1603873888990</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/.." />
-    </ignored-roots>
-    <MESSAGE value="加了一个哈哈哈" />
-    <MESSAGE value="Revert &quot;加了一行注释&quot;&#10;&#10;This reverts commit ac2396b" />
-    <MESSAGE value="修改3" />
-    <MESSAGE value="加入字符串遍历案例" />
-    <MESSAGE value="加入案例: 统计字符串中大写字母小写字母以及数字的个数.BigOrSmallOrNum" />
-    <MESSAGE value="加入案例: 字符串拼接(StringCombine)与字符串反转(Reverse)" />
-    <MESSAGE value="加入案例: 1-创建一个Stringbuilder; 2-使用append和reverse方法进行字符串构建与反转; 3-构建方法, 将数组拼接成字符串; 4-构建方法, 使字符串反转" />
-    <MESSAGE value="加入案例: 1-创建集合存储学生对象; 2-学生管理系统" />
-    <MESSAGE value="加入案例: 1-继承; 2-多态; 3-抽象类; 4-接口(1)猫和狗; 5-接口(2)运动员和教练" />
-    <MESSAGE value="加入案例: Object类中toString方法的重写" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入案例: Object类中toString方法的重写" />
+    <MESSAGE value="修改错别字" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改错别字" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="391" height="672" key="GridCell.Tab.0.bottom" timestamp="1626789515328">
+    <state x="335" y="0" key="CommitChangelistDialog2" timestamp="1626843388123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="391" height="672" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1626789515328" />
-    <state width="391" height="672" key="GridCell.Tab.0.center" timestamp="1626789515328">
+    <state x="335" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1626843388123" />
+    <state x="701" y="98" key="FileChooserDialogImpl" timestamp="1626836291169">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="391" height="672" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1626789515328" />
-    <state width="391" height="672" key="GridCell.Tab.0.left" timestamp="1626789515328">
+    <state x="701" y="98" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1626836291169" />
+    <state width="1493" height="278" key="GridCell.Tab.0.bottom" timestamp="1626957068610">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="391" height="672" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1626789515328" />
-    <state width="391" height="672" key="GridCell.Tab.0.right" timestamp="1626789515328">
+    <state width="1493" height="278" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1626957068610" />
+    <state width="1493" height="278" key="GridCell.Tab.0.center" timestamp="1626957068610">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="391" height="672" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1626789515328" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1626782020292">
+    <state width="1493" height="278" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1626957068610" />
+    <state width="1493" height="278" key="GridCell.Tab.0.left" timestamp="1626957068610">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1626782020292" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1626789215609">
+    <state width="1493" height="278" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1626957068610" />
+    <state width="1493" height="278" key="GridCell.Tab.0.right" timestamp="1626957068610">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1626789215609" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1626609471786">
+    <state width="1493" height="278" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1626957068610" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1627103955123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1626609471786" />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627103955123" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1626859971275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1626859971275" />
   </component>
 </project>
