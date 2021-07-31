@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc995ba6-85e7-4bce-a35a-8b03b34d2a3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Junit/src/Junit01/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit/src/Junit01/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Junit/src/Test/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflect/src/Domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflect/src/Domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflect/src/Reflect01/ReflectDemo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/JavaPractice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/My1/My1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/My1/src/P1/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/My1/src/P2/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/My1/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/My2/My2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/My2/src/P3/ModuleDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/My2/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyAbstractClass/MyAbstractClass.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyAbstractClass/src/AbstractTest/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyAbstractClass/src/AbstractTest/AnimalDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyAbstractClass/src/AbstractTest/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyAbstractClass/src/AbstractTest/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyArrayList/MyArrayList.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyArrayList/src/ArrayListTest/ArrayListTest01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyArrayList/src/ArrayListTest/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyCalendar/MyCalendar.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyCalendar/src/CalendarTest/CalendarDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyCharStream/MyCharStream.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyCharStream/src/CharStream01/OutputStreamWriterDemo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyCharStream/src/CharStream02/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyCharStream/src/CharStream02/TreeSetToFileDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyCharStream/src/CharStream03/CopyFoldersDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyCharStream/ts.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyClass/MyClass.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyClass/src/ClassTest/Phone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyClass/src/ClassTest/PhoneDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyClass/src/ConstructionMethod/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyClass/src/ConstructionMethod/StudentDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyClass/src/StandardClass/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyClass/src/StandardClass/StudentDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyCollection/MyCollection.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyCollection/src/CollectionTest/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyCollection/src/CollectionTest/StudentDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyCollections/MyCollections.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyCollections/src/DouDiZhuV1/PokerDemo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyCollections/src/DouDiZhuV2/PokerDemo02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyCollections/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyDate/MyDate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyDate/src/DateTransform/DateDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyDate/src/DateTransform/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyException/MyException.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyException/src/ExceptionTest/ScoreException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyException/src/ExceptionTest/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyException/src/ExceptionTest/TeacherTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyExtends/MyExtends.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyExtends/src/ExtendsTest/ExtendsDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyExtends/src/ExtendsTest/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyExtends/src/ExtendsTest/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyExtends/src/ExtendsTest/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyHashSet/MyHashSet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyHashSet/MySet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyHashSet/src/HashSetTest/HashSetDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyHashSet/src/HashSetTest/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyHashSet/src/TreeSetTest/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyHashSet/src/TreeSetTest/TreeSetDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyHashSet/src/TreeSetTest/TreeSetDemo02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyHashSet/src/TreeSetTest02/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyHashSet/src/TreeSetTest02/TreeSetDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyHashSet/src/TreeSetTest02/comImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyInterface/MyInterface.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyInterface/src/InterfaceTest/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyInterface/src/InterfaceTest/AnimalDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyInterface/src/InterfaceTest/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyInterface/src/InterfaceTest/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyInterface/src/InterfaceTest/Jumpping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyInterface/src/InterfaceTest02/BasketCoach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyInterface/src/InterfaceTest02/BasketPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyInterface/src/InterfaceTest02/Coach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyInterface/src/InterfaceTest02/English.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyInterface/src/InterfaceTest02/InterfaceDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyInterface/src/InterfaceTest02/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyInterface/src/InterfaceTest02/PingpangCoach.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyInterface/src/InterfaceTest02/PingpangPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyInterface/src/InterfaceTest02/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyList/MyList.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyList/src/ListTest/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyList/src/ListTest/StudentDeno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyMethod/MyMethod.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyMethod/src/MethodTest/MTest01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyMethodReference/MyMethodReference.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyMethodReference/src/MethodReference01/Converter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyMethodReference/src/MethodReference01/ConverterDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyMethodReference/src/MethodReference02/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyMethodReference/src/MethodReference02/StudentBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyMethodReference/src/MethodReference02/StudentDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyMethodReference/src/MethodReference03/SupplierTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyMethodReference/src/MethodReference04/ConsumerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyMethodReference/src/MethodReference04/ConsumerDemo02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyMethodReference/src/MethodReference05/PredicateDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/MyNet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/net07.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/net07[0]" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/net07[1]" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/s.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/src/Net01/InetAddressDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/src/Net02/UDPReceiveDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/src/Net02/UDPSendDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/src/Net03/UDPReceiverDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/src/Net03/UDPSendDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/src/Net04/ClientDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/src/Net04/ServerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/src/Net05/ClientDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/src/Net05/ServerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/src/Net06/ClientDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/src/Net06/ServerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/src/Net07/ClientDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/src/Net07/ServerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/src/Net08/ClientDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/src/Net08/ServerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/src/Net09/ClientDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/src/Net09/ServerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/src/Net09/ServerThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyNet/srcNet07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyObject/MyObject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyObject/src/ToStringTest/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyObject/src/ToStringTest/toStringDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyOtherStream/MyOtherStream.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyOtherStream/game.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyOtherStream/src/Properties/GuessNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyOtherStream/src/Properties/GuessNumberDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyPolym/MyPolym.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyPolym/src/PolymTest/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyPolym/src/PolymTest/AnimalDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyPolym/src/PolymTest/AnimalOpetator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyPolym/src/PolymTest/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyPolym/src/PolymTest/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyRecursion/MyRecursion.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyRecursion/src/Traversal/RecursionDemo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyReflect/MyReflect.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyReflect/class.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyReflect/src/Reflect01/ReflectDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyReflect/src/Reflect01/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyReflect/src/Reflect02/ReflectDemo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyReflect/src/Reflect03/ReflectDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyReflect/src/Reflect04/ReflectDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyReflect/src/Reflect04/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyReflect/src/Reflect04/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MySetNested/MySetNested.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MySetNested/src/SetNested01/SetNestedDemo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyStream/MyStream.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyStream/src/Stream01/Actor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyStream/src/Stream01/StreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyString/MyString.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyString/src/StringTest/BigOrSmallOrNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyString/src/StringTest/Reverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyString/src/StringTest/StringBuilder01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyString/src/StringTest/StringBuilder02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyString/src/StringTest/StringBuilder03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyString/src/StringTest/StringBuilder04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyString/src/StringTest/StringCombine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyString/src/StringTest/StringSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyString/src/StringTest/traversal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyThread/MyThread.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyThread/src/Thread01/MyThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyThread/src/Thread01/MyThreadDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyThread/src/Thread02/SellTicket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyThread/src/Thread02/SellTicketDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyThread/src/Thread03/Box.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyThread/src/Thread03/BoxDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyThread/src/Thread03/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/MyThread/src/Thread03/Producer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/StudentManager/StudentManager.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/StudentManager/src/MyManager/Manager01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/StudentManager/src/MyManager/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/Test/Test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/Test/src/MyTest/DebugTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/Test/src/MyTest/Test01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/myByteStream/myByteStream.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/myByteStream/src/ByteStream01/CopyTxtDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/myByteStream/src/ByteStream02/CopyPngDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/ByteStream01/CopyTxtDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/ByteStream02/CopyPngDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/CalendarTest/CalendarDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/CharStream01/OutputStreamWriterDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/CharStream02/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/CharStream02/TreeSetToFileDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/CharStream02/TreeSetToFileDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/CharStream03/CopyFoldersDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/CollectionTest/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/CollectionTest/StudentDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/DateTransform/DateDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/DateTransform/DateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/DouDiZhuV1/PokerDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/DouDiZhuV2/PokerDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/HashSetTest/HashSetDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/HashSetTest/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/ListTest/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/ListTest/StudentDeno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/Properties/GuessNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/Properties/GuessNumberDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/SetNested01/SetNestedDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/Thread01/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/Thread01/MyThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/Thread02/SellTicket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/Thread02/SellTicketDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/Thread03/Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/Thread03/BoxDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/Thread03/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/Thread03/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/TreeSetTest/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/TreeSetTest/TreeSetDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/TreeSetTest/TreeSetDemo02$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/TreeSetTest/TreeSetDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/TreeSetTest02/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/TreeSetTest02/TreeSetDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/JavaPractice/TreeSetTest02/comImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyAbstractClass/AbstractTest/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyAbstractClass/AbstractTest/AnimalDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyAbstractClass/AbstractTest/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyAbstractClass/AbstractTest/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyArrayList/ArrayListTest/ArrayListTest01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyArrayList/ArrayListTest/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyClass/ClassTest/Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyClass/ClassTest/PhoneDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyClass/ConstructionMethod/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyClass/ConstructionMethod/StudentDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyClass/StandardClass/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyClass/StandardClass/StudentDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyCollection/CollectionTest/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyCollection/CollectionTest/StudentDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyExtends/ExtendsTest/ExtendsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyExtends/ExtendsTest/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyExtends/ExtendsTest/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyExtends/ExtendsTest/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyInterface/InterfaceTest/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyInterface/InterfaceTest/AnimalDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyInterface/InterfaceTest/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyInterface/InterfaceTest/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyInterface/InterfaceTest/Jumpping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyInterface/InterfaceTest02/BasketCoach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyInterface/InterfaceTest02/BasketPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyInterface/InterfaceTest02/Coach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyInterface/InterfaceTest02/English.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyInterface/InterfaceTest02/InterfaceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyInterface/InterfaceTest02/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyInterface/InterfaceTest02/PingpangCoach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyInterface/InterfaceTest02/PingpangPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyInterface/InterfaceTest02/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyMethod/MethodTest/MTest01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyMethodReference/MethodReference01/Converter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyMethodReference/MethodReference01/ConverterDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyMethodReference/MethodReference02/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyMethodReference/MethodReference02/StudentBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyMethodReference/MethodReference02/StudentDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyMethodReference/MethodReference03/SupplierTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyMethodReference/MethodReference04/ConsumerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyMethodReference/MethodReference04/ConsumerDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyMethodReference/MethodReference05/PredicateDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyNet/Net01/InetAddressDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyNet/Net02/UDPReceiveDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyNet/Net02/UDPSendDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyNet/Net03/UDPReceiverDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyNet/Net03/UDPSendDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyNet/Net04/ClientDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyNet/Net04/ServerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyNet/Net05/ClientDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyNet/Net05/ServerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyNet/Net06/ClientDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyNet/Net06/ServerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyNet/Net07/ClientDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyNet/Net07/ServerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyNet/Net08/ClientDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyNet/Net08/ServerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyNet/Net09/ClientDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyNet/Net09/ServerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyNet/Net09/ServerThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyObject/ToStringTest/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyObject/ToStringTest/toStringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyPolym/PolymTest/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyPolym/PolymTest/AnimalDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyPolym/PolymTest/AnimalOpetator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyPolym/PolymTest/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyPolym/PolymTest/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyReflect/Reflect01/ReflectDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyReflect/Reflect01/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyReflect/Reflect02/ReflectDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyReflect/Reflect03/ReflectDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyReflect/Reflect04/ReflectDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyReflect/Reflect04/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyReflect/Reflect04/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyString/StringTest/BigOrSmallOrNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyString/StringTest/Reverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyString/StringTest/StringBuilder01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyString/StringTest/StringBuilder02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyString/StringTest/StringBuilder03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyString/StringTest/StringBuilder04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyString/StringTest/StringCombine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyString/StringTest/StringSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/MyString/StringTest/traversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/StudentManager/MyManager/Manager01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/StudentManager/MyManager/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/Test/MyTest/DebugTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/JavaPractice/out/production/Test/MyTest/Test01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/LeetCode.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/Solution/Solution.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/Solution/src/MyHashMap/MyHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/Solution/src/MyHashMap/TestDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/Solution/src/RotatePicture/RotatePicture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/Solution/src/SortColors/Method.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/Solution/src/SortColors/TestDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/Solution/src/ThreeSum/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/Solution/src/ThreeSum/TestDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/Solution/src/TwoSum/Method.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/Solution/src/TwoSum/TestDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/Test/Test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/Test/src/Method.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/Test/src/TestDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/out/production/Solution/META-INF/Solution.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/out/production/Solution/MyHashMap/MyHashMap$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/out/production/Solution/MyHashMap/MyHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/out/production/Solution/MyHashMap/TestDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/out/production/Solution/SortColors/Method.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/out/production/Solution/SortColors/TestDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/out/production/Solution/ThreeSum/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/out/production/Solution/ThreeSum/TestDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/out/production/Solution/TwoSum/Method.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/out/production/Solution/TwoSum/TestDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/out/production/Test/Method.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java基础/LeetCode/out/production/Test/TestDemo.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1w4lyWwsMisXnHOE55jPSNjFBI2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="plugins.junitgenerator.project" />
+  </component>
+  <component name="RunManager" selected="Application.ReflectDemo01">
+    <configuration name="ReflectDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflect01.ReflectDemo01" />
+      <module name="Reflect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reflect01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.CalculatorTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.testSub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.CalculatorTest" />
+      <option name="METHOD_NAME" value="testSub" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ReflectDemo01" />
+        <item itemvalue="JUnit.CalculatorTest.testSub" />
+        <item itemvalue="JUnit.CalculatorTest.testAdd" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc995ba6-85e7-4bce-a35a-8b03b34d2a3a" name="Default Changelist" comment="" />
+      <created>1627725996636</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627725996636</updated>
+      <workItem from="1627725999928" duration="1329000" />
+      <workItem from="1627731572338" duration="3166000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1627734335216">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627734335216" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1627734459366">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627734459366" />
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1627735986452">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627735986452" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1627735986452">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627735986452" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1627735986452">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627735986452" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1627735986452">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627735986452" />
+    <state x="270" y="57" key="SettingsEditor" timestamp="1627731645916">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627731645916" />
+    <state x="485" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1627731610612">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="485" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627731610612" />
+    <state x="267" y="45" key="new project wizard" timestamp="1627734293271">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="267" y="45" key="new project wizard/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627734293271" />
+    <state x="2254" y="130" key="new project wizard/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627726030674" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1627734412618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627734412618" />
+  </component>
+</project>
