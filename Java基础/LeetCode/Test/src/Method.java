@@ -1,42 +1,47 @@
-import java.lang.management.MemoryType;
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Method {
-    public List<Integer> getRow(int rowIndex) {
-
-        List<Integer> result = new ArrayList<>();
-//        List<List<Integer>> triangle = new ArrayList<>();
-        if(rowIndex <=1) {
-            for(int i = 0; i<rowIndex+1; i++) {
-                result.add(1);
+    public static boolean wordPattern(String pattern, String s) {
+        s.split()
+        Map<Character, String> pat2str = new HashMap<>();
+        Map<String, Character> str2pat = new HashMap<>();
+        int k = 0; //用于提取s中的子串, k是起点, j是终点
+        for (int i = 0; i < pattern.length(); i++) {
+            if (k >= s.length()) {
+                return false;
             }
-            return result;
-        }
 
-        int[][] triangle = new int[rowIndex+1][rowIndex+1];
-        triangle[0][0] = 1;
-        triangle[1][0] = 1;
-        triangle[1][1] = 1;
-        for(int i = 2; i<rowIndex+1; i++) {
-            triangle[i][0] = 1;
-            for(int j = 1; j <= i; j++) {
-                triangle[i][j] = triangle[i-1][j-1] + triangle[i-1][j];
-
+            char ch = pattern.charAt(i);
+            int j = k;
+            while (j < s.length() && s.charAt(j) != ' ') {
+                j++;
             }
-            triangle[i][rowIndex] = 1;
-        }
-        for(int i = 0; i<rowIndex+1; i++) {
-            result.add(triangle[rowIndex][i]);
-        }
+            String str = s.substring(k, j);
 
-        return result;
+            if (pat2str.containsKey(ch) && !pat2str.get(ch).equals(str)) {
+                return false;
+            }
+            if (str2pat.containsKey(str) && str2pat.get(str) != ch) {
+                return false;
+            }
+
+            pat2str.put(ch, str);
+            str2pat.put(str, ch);
+            k = j + 1;
+
+        }
+        return k >= s.length(); //保证s中子字符串的数量和规则中字符的数量是一致的
+
     }
 
     public static void main(String[] args) {
-        Method m = new Method();
-        m.getRow(3);
-    }
 
+        Map<String, Integer> map = new HashMap<>();
+//        String pattern = "abba";
+//        String s = "dog cat cat dog dog";
+//        wordPattern(pattern, s);
+        int i = 500;
+        map.put("a", i);
+
+    }
 }

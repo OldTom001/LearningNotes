@@ -2,25 +2,25 @@
 
 ## 运算符
 
-![算术运算符](Python基础.assets/算术运算符.png)
+![算术运算符](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/20210729202350.png)
 
-![比较运算符](Python基础.assets/比较运算符.png)
+![比较运算符](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/20210729202402.png)
 
-![赋值运算符](Python基础.assets/赋值运算符.png)
+![赋值运算符](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6.png)
 
-![位运算符](Python基础.assets/位运算符.png)
+![位运算符](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AC%A6.png)
 
-![逻辑运算符](Python基础.assets/逻辑运算符.png)
+![逻辑运算符](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6.png)
 
-![身份运算符](Python基础.assets/身份运算符.png)
+![身份运算符](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E8%BA%AB%E4%BB%BD%E8%BF%90%E7%AE%97%E7%AC%A6.png)
 
-![成员运算符](Python基础.assets/成员运算符.png)
+![成员运算符](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E6%88%90%E5%91%98%E8%BF%90%E7%AE%97%E7%AC%A6.png)
 
-![运算符优先级](Python基础.assets/运算符优先级.png)
+![运算符优先级](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E8%BF%90%E7%AE%97%E7%AC%A6%E4%BC%98%E5%85%88%E7%BA%A7.png)
 
 ## 条件判断语句
 
-![条件判断](Python基础.assets/条件判断.png)
+![条件判断](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD.png)
 
 **注意判断条件后的冒号, 且必须缩进, 空格缩进和tab缩进均可**
 
@@ -113,7 +113,7 @@ print(r"hello\nchengdu")  # 前面加r表示直接显示, 没有转义功能
 
 ### 列表
 
-![列表](Python基础.assets/列表-1621152280098.png)
+![列表](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E5%88%97%E8%A1%A8-1621152280098.png)
 
   ```python
   namelist = ["孙悟空", "猪悟能", "沙悟净"]
@@ -194,7 +194,7 @@ for office in offices:
 
   ### 案例: 逛超市
 
-![作业 逛超市](Python基础.assets/作业 逛超市-1621158847434.png)
+![作业 逛超市](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E4%BD%9C%E4%B8%9A%20%E9%80%9B%E8%B6%85%E5%B8%82-1621158847434.png)
 
 ```python
 # 打印商品清单
@@ -237,7 +237,7 @@ for i, product in enumerate(shopTrolley):
 
 ### 元组(tuple)
 
-![元组(Tuple)](Python基础.assets/元组(Tuple).png)
+![元组(Tuple)](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E5%85%83%E7%BB%84(Tuple).png)
 
 ```python
 tup1 = ("abc", "def", 2000, 2020, 333, 444, 555, 666)  # 必须用逗号隔开, 如果只有一个元素后面也必须加逗号
@@ -261,7 +261,7 @@ del tup2  # 删除了整个变量, 无法再进行打印
 
 ### 字典(dict, Java中叫Map)
 
-![字典](Python基础.assets/字典.png)
+![字典](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E5%AD%97%E5%85%B8.png)
 
 ```python
 info = {"name": "孙悟空", "age": 500}
@@ -333,15 +333,15 @@ for i, x in enumerate(myList):
 
 ### 集合(set)
 
-![集合](Python基础.assets/集合.png)
+![集合](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E9%9B%86%E5%90%88.png)
 
 ### 数据结构小结
 
-![数据结构小结](Python基础.assets/数据结构小结.png)
+![数据结构小结](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%B0%8F%E7%BB%93.png)
 
 ## 函数
 
-![函数](Python基础.assets/函数.png)
+![函数](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E5%87%BD%E6%95%B0.png)
 
 ```python
 # 定义函数
@@ -491,7 +491,7 @@ except Exception as result:
 
 ```
 
-![古诗](Python基础.assets/古诗.png)
+![古诗](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E5%8F%A4%E8%AF%97.png)
 
 # 爬虫基础
 
@@ -503,41 +503,41 @@ https://movie.douban.com/top250
 
 ## 爬虫初识
 
-![爬虫初识](Python基础.assets/爬虫初识.png)
+![爬虫初识](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E7%88%AC%E8%99%AB%E5%88%9D%E8%AF%86.png)
 
 ([百度指数]([百度指数 (baidu.com)](https://index.baidu.com/v2/index.html#/))可以查看关键词流量)
 
 ## 基本流程
 
-![爬虫基本流程](Python基础.assets/爬虫基本流程.png)
+![爬虫基本流程](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E7%88%AC%E8%99%AB%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B.png)
 
 ## 准备工作
 
-![](Python基础.assets/准备工作.png)
+![](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C.png)
 
 ### 页面分析
 
-![页面分析](Python基础.assets/页面分析.png)
+![页面分析](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E9%A1%B5%E9%9D%A2%E5%88%86%E6%9E%90.png)
 
 * 按F12进入开发者模式, 点击Elements可以查看页面源码, 点击左上角箭头可以在页面中选择一个元素进行检查
 
-  ![页面源码](Python基础.assets/页面源码-1622035940437.png)
+  ![页面源码](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E9%A1%B5%E9%9D%A2%E6%BA%90%E7%A0%81-1622035940437.png)
 
 * 点击Elements可以捕获向页面发送的请求, 在Headers中可以看到浏览器信息等, 爬虫时需要进行对应的封装
 
-  ![Elements](Python基础.assets/Elements-1622084798820.png)
+  ![Elements](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/Elements-1622084798820.png)
 
 HTTP请求/响应测试网站[httpbin.org](http://httpbin.org/), 向该网站发送HTTP请求, Response body中会显示请求中包含的所有信息
 
-![httpbin.org](Python基础.assets/httpbin.org.png)
+![httpbin.org](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/httpbin.org.png)
 
 ### 编码规范
 
-![编码规范](Python基础.assets/编码规范-1622022917209.png)
+![编码规范](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83-1622022917209.png)
 
 ### 引入模块
 
-![引入模块](Python基础.assets/引入模块.png)
+![引入模块](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E5%BC%95%E5%85%A5%E6%A8%A1%E5%9D%97.png)
 
 ### 使用urllib库访问网页
 
@@ -636,7 +636,7 @@ print(response.read().decode("utf-8"))
 
 * Python一般使用urllib库获取页面
 
-![获取数据](Python基础.assets/获取数据.png)
+![获取数据](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E8%8E%B7%E5%8F%96%E6%95%B0%E6%8D%AE.png)
 
 ### BeautifulSoup
 
@@ -774,19 +774,19 @@ for item in t_list:
 
 常用操作符:
 
-![正则表达式常用操作](Python基础.assets/正则表达式常用操作.png)
+![正则表达式常用操作](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C.png)
 
-![正则表达式常用操作2](Python基础.assets/正则表达式常用操作2-1622195292663.png)
+![正则表达式常用操作2](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C2-1622195292663.png)
 
 [常用正则表达式](https://www.cnblogs.com/fozero/p/7868687.html)
 
 RE库主要功能函数
 
-![RE库](Python基础.assets/RE库-1622195449310.png)
+![RE库](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/RE%E5%BA%93-1622195449310.png)
 
 修饰符控制匹配的模式
 
-![修饰符](Python基础.assets/修饰符.png)
+![修饰符](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E4%BF%AE%E9%A5%B0%E7%AC%A6.png)
 
 ```python
 import re
@@ -898,7 +898,7 @@ print(link)  # 打印链接
 
 ### Excel保存
 
-![excel保存](Python基础.assets/excel保存.png)
+![excel保存](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/excel%E4%BF%9D%E5%AD%98.png)
 
 ```python
 import xlwt
@@ -941,11 +941,11 @@ print("Opened database successfully")
 
 打开数据库文件
 
-![数据库1](Python基础.assets/数据库1.png)
+![数据库1](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E6%95%B0%E6%8D%AE%E5%BA%931.png)
 
-![数据库2](Python基础.assets/数据库2.png)
+![数据库2](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E6%95%B0%E6%8D%AE%E5%BA%932.png)
 
-![image-20210529172107667](Python基础.assets/image-20210529172107667.png)
+![image-20210529172107667](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/image-20210529172107667.png)
 
 右侧的控制台可以进行数据库操作, 与代码操作效果相同.
 
@@ -973,7 +973,7 @@ print("成功建表")
 
 在数据库中观察执行结果, 加减号可以添加数据
 
-![数据库4](Python基础.assets/数据库4.png)
+![数据库4](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/%E6%95%B0%E6%8D%AE%E5%BA%934.png)
 
 (3) 插入数据
 
@@ -1268,7 +1268,7 @@ if __name__ == '__main__':
 
 ## Flask框架
 
-![Flask框架](Python基础.assets/Flask框架.png)
+![Flask框架](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/Flask%E6%A1%86%E6%9E%B6.png)
 
 Flask框架的核心是Werkzeug和Jinjia2
 
@@ -1276,7 +1276,7 @@ Flask框架的核心是Werkzeug和Jinjia2
 
 基于Flask框架建立工程, 自动生成了一部分源码, 如下
 
-![image-20210601113504343](Python基础.assets/image-20210601113504343.png)
+![image-20210601113504343](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/image-20210601113504343.png)
 
 ```python
 from flask import Flask, render_template  # render_template是渲染模板
@@ -1297,15 +1297,15 @@ if __name__ == '__main__':
 
 运行后进入控制台显示的网址, 即可看到网站
 
-![image-20210601113757582](Python基础.assets/image-20210601113757582.png)
+![image-20210601113757582](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/image-20210601113757582.png)
 
-![image-20210601113815515](Python基础.assets/image-20210601113815515.png)
+![image-20210601113815515](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/image-20210601113815515.png)
 
 开启调试模式, 程序执行后网页自动刷新, 不需要重启服务器. 如果有错误, 会在网页中显示
 
-![image-20210601111840035](Python基础.assets/image-20210601111840035.png)
+![image-20210601111840035](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/image-20210601111840035.png)
 
-![image-20210601111857376](Python基础.assets/image-20210601111857376-1622517544260.png)
+![image-20210601111857376](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/image-20210601111857376-1622517544260.png)
 
 ### 装饰器
 
@@ -1441,7 +1441,7 @@ if __name__ == '__main__':
 
 导入render_template库, 在templates文件夹下新建一个html文件, 在body中写入文字
 
-![image-20210601120755527](Python基础.assets/image-20210601120755527.png)
+![image-20210601120755527](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/image-20210601120755527.png)
 
 然后执行下列代码, 即可得到渲染后的网页
 
@@ -1639,15 +1639,15 @@ if __name__ == '__main__':
 
 将echarts.min.js复制到工程目录下
 
-![image-20210603200730264](Python基础.assets/image-20210603200730264.png)
+![image-20210603200730264](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/image-20210603200730264.png)
 
 新建一个网页测试Echarts, 网页路径/templates/test/testEcharts.html, 然后将echarts.min.js复制到工程目录下
 
-![image-20210603201032436](Python基础.assets/image-20210603201032436.png)
+![image-20210603201032436](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/image-20210603201032436.png)
 
 然后按照[ECharts教程](https://echarts.apache.org/zh/tutorial.html#5 分钟上手 ECharts)添加相应的js代码, 在本地文件中打开html文件, 即可观察绘图效果
 
-![image-20210603201800402](Python基础.assets/image-20210603201800402.png)
+![image-20210603201800402](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/image-20210603201800402.png)
 
 学习使用ECharts可以看教程中的ECharts基础概念概览, 文档-配置项可以查询关键字的含义
 
