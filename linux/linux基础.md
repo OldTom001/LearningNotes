@@ -22,6 +22,6 @@ StartupNotify=true;
 
 输入完毕后按esc，再输入:wq
 
-![image-20210715201623357](linux基础.assets/image-20210715201623357.png)
+![image-20210715201623357](https://gitee.com/zhu-shuailin/pictures/raw/master/pictures/image-20210715201623357.png)
 
 关闭上述界面，右键 xxx.desktop，选择允许启动即可。

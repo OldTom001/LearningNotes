@@ -2,7 +2,6 @@ import java.util.*;
 
 public class Method {
     public static boolean wordPattern(String pattern, String s) {
-        s.split()
         Map<Character, String> pat2str = new HashMap<>();
         Map<String, Character> str2pat = new HashMap<>();
         int k = 0; //用于提取s中的子串, k是起点, j是终点
