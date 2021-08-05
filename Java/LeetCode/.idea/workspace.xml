@@ -20,7 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f96ba032-bb37-46c8-8824-19310667fc1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Test/src/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/JavaSEBooster/Reflect/src/Annotation01/AnnoDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/JavaSEBooster/Reflect/src/Reflect01/ReflectDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/JavaSEBooster/Reflect/src/Reflect01/ReflectDemo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/JavaSEBooster/Reflect/src/Reflect01/ReflectDemo04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/JavaSEBooster/Reflect/src/Reflect01/ReflectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/JavaSEBooster/Reflect/src/pro.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution/src/FindRepeatedDnaSequences/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution/src/FindRepeatedDnaSequences/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution/src/FindRepeatedDnaSequences/Solution3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution/src/LongestPalindrome/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution/src/LongestPalindrome/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution/src/PartitionLabels/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/JavaSEBooster/Junit/Junit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/JavaSEBooster/Junit/Junit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/JavaSEBooster/Reflect/src/Domain/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/JavaSEBooster/Reflect/src/Domain/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/JavaSEBooster/Reflect/src/Domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/JavaSEBooster/Reflect/src/Domain/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/JavaSEBooster/out/production/Reflect/Domain/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/JavaSEBooster/out/production/Reflect/Domain/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/Method.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +62,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Solution/src/SortColors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -56,24 +78,54 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="LongestPalindrome" />
+      <recent name="FindRepeatedDnaSequences" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\LearningNotes\Java基础\LeetCode\Solution\src\SortColors" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Method">
-    <configuration name="Method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Method" />
+  <component name="RunManager" selected="Application.Solution2 (1)">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="Test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreeSum.TestDemo" />
+    <configuration name="Solution2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestPalindrome.Solution2" />
       <module name="Solution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreeSum.*" />
+          <option name="PATTERN" value="LongestPalindrome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindRepeatedDnaSequences.Solution2" />
+      <module name="Solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FindRepeatedDnaSequences.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindRepeatedDnaSequences.Solution3" />
+      <module name="Solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FindRepeatedDnaSequences.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,19 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestDemo" />
-      <module name="Solution" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Method" />
+        <item itemvalue="Application.Solution2 (1)" />
+        <item itemvalue="Application.Solution3" />
+        <item itemvalue="Application.Solution2" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.TestDemo (2)" />
-        <item itemvalue="Application.TestDemo (1)" />
-        <item itemvalue="Application.TestDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +181,10 @@
       <workItem from="1627636772502" duration="8851000" />
       <workItem from="1627656260051" duration="594000" />
       <workItem from="1627696567215" duration="10559000" />
+      <workItem from="1627875950667" duration="7423000" />
+      <workItem from="1627993509214" duration="2386000" />
+      <workItem from="1628078709977" duration="5274000" />
+      <workItem from="1628134270838" duration="17454000" />
     </task>
     <task id="LOCAL-00001" summary="int版MyHashMap">
       <created>1627288417231</created>
@@ -182,42 +232,42 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2258" y="172" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627288729395" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1627720418119">
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom" timestamp="1628178073724">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627120627780" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627720418119" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1627720418119">
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628178073724" />
+    <state width="1877" height="248" key="GridCell.Tab.0.center" timestamp="1628178073724">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627120627780" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627720418119" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1627720418119">
+    <state width="1877" height="248" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628178073724" />
+    <state width="1877" height="248" key="GridCell.Tab.0.left" timestamp="1628178073724">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627120627780" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627720418119" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1627720418119">
+    <state width="1877" height="248" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628178073724" />
+    <state width="1877" height="248" key="GridCell.Tab.0.right" timestamp="1628178073724">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627120627780" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627720418119" />
-    <state width="1877" height="248" key="GridCell.Tab.1.bottom" timestamp="1627720418101">
+    <state width="1877" height="248" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628178073724" />
+    <state width="1877" height="248" key="GridCell.Tab.1.bottom" timestamp="1628178073724">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="248" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627720418101" />
-    <state width="1877" height="248" key="GridCell.Tab.1.center" timestamp="1627720418101">
+    <state width="1877" height="248" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628178073724" />
+    <state width="1877" height="248" key="GridCell.Tab.1.center" timestamp="1628178073724">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="248" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627720418101" />
-    <state width="1877" height="248" key="GridCell.Tab.1.left" timestamp="1627720418101">
+    <state width="1877" height="248" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628178073724" />
+    <state width="1877" height="248" key="GridCell.Tab.1.left" timestamp="1628178073724">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="248" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627720418101" />
-    <state width="1877" height="248" key="GridCell.Tab.1.right" timestamp="1627720418101">
+    <state width="1877" height="248" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628178073724" />
+    <state width="1877" height="248" key="GridCell.Tab.1.right" timestamp="1628178073724">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="248" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627720418101" />
+    <state width="1877" height="248" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628178073724" />
     <state x="2632" y="221" key="RollbackChangesDialog" timestamp="1627288730472">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -230,19 +280,35 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627350611978" />
+    <state x="2578" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1628082348778">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2578" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628082348778" />
     <state x="2424" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1627203551369">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2424" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627203551369" />
+    <state x="2610" y="279" key="extract.method.dialog" timestamp="1628153139109">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2610" y="279" key="extract.method.dialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628153139109" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1627876380543">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627876380543" />
     <state x="178" y="22" key="new project wizard" timestamp="1627104052821">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="22" key="new project wizard/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627104052821" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1627704492747">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1627995801247">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627995801247" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1628175360116">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627355404111" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627704492747" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628175360116" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
