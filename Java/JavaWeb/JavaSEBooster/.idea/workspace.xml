@@ -2,9 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc995ba6-85e7-4bce-a35a-8b03b34d2a3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Reflect/src/Reflect01/ReflectDemo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflect/src/Domain/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Reflect/src/Domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflect/src/Annotation01/Case/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflect/src/Annotation01/Case/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflect/src/Annotation01/Case/TestCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflect/src/Annotation01/Class01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflect/src/Annotation01/Class02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflect/src/Annotation01/MyAnno3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflect/src/Annotation01/Pro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflect/src/Annotation01/ReflectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bug.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LeetCode/Solution/src/ListNode/Cycle01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LeetCode/Solution/src/ListNode/Cycle02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LeetCode/Solution/src/ListNode/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LeetCode/Solution/src/ListNode/ListNodeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LeetCode/Solution/src/ListNode/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Reflect/Domain/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Reflect/Domain/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Reflect/Domain/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Reflect/Domain/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Reflect/Domain/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Reflect/Domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Reflect/Reflect01/ReflectDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Reflect/Reflect01/ReflectDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Reflect/Reflect01/ReflectDemo03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Reflect/Reflect01/ReflectDemo04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Reflect/Reflect01/ReflectTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Reflect/pro.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/Solution/src/LongestPalindrome/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeetCode/Solution/src/LongestPalindrome/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LeetCode/out/production/Solution/LongestPalindrome/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../LeetCode/out/production/Solution/LongestPalindrome/Solution2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +53,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -52,7 +76,7 @@
       <recent name="Reflect01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReflectDemo02">
+  <component name="RunManager" selected="Application.ReflectDemo01">
     <configuration name="ReflectDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Reflect01.ReflectDemo01" />
       <module name="Reflect" />
@@ -113,8 +137,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReflectDemo02" />
         <item itemvalue="Application.ReflectDemo01" />
+        <item itemvalue="Application.ReflectDemo02" />
         <item itemvalue="JUnit.CalculatorTest.testSub" />
         <item itemvalue="JUnit.CalculatorTest.testAdd" />
       </list>
@@ -134,11 +158,15 @@
       <workItem from="1627731572338" duration="3166000" />
       <workItem from="1627818172729" duration="3139000" />
       <workItem from="1627872757159" duration="596000" />
+      <workItem from="1628824827763" duration="69000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1627734335216">
@@ -149,22 +177,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627819661805" />
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1627821428916">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1628824896990">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627821428916" />
-    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1627821428916">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628824896990" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1628824896990">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627821428916" />
-    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1627821428916">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628824896990" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1628824896990">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627821428916" />
-    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1627821428916">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628824896990" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1628824896990">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1627821428916" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1628824896990" />
     <state x="270" y="57" key="SettingsEditor" timestamp="1627731645916">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -1,7 +1,4 @@
 package LongestPalindrome;
-
-import java.util.Map;
-
 public class Solution2 {
 
     /**
@@ -11,48 +8,32 @@ public class Solution2 {
      * @return
      */
     public static String longestPalindrome(String s) {
-        if (s.length() < 2) {
-            return s;
+        if (s == null || s.length() < 1) {
+            return "";
         }
-        int maxLen = 1;
-        int beginInd = 0;
-        int len = s.length();
-//        从单个中心进行扩散, i是扩散中心, L是扩散长度
-        for(int i = 1; i<len-1; i++) {
-            int L =1;
-            while(i-L>=0 && i+L <len) {
-                if(s.charAt(i-L)!=s.charAt(i+L)) {
-                    break;
-                }
-                if(1+2*L>maxLen){
-                    beginInd = i-L;
-                    maxLen = 1+2*L;
-                }
-                L++;
+        int start = 0, end = 0;
+        for (int i = 0; i < s.length(); i++) {
+            int len1 = expandAroundCenter(s, i, i);
+            int len2 = expandAroundCenter(s, i, i + 1);
+            int len = Math.max(len1, len2);
+            if (len > end - start) {
+                start = i - (len - 1) / 2;
+                end = i + len / 2;
             }
         }
-//        从双中心进行扩散, i是扩散中心, L是扩散长度
-        for(int i = 0; i<len-1; i++) {
-            if(s.charAt(i)!=s.charAt(i+1)) {
-                continue;
-            }
-            int L = 0;
-            while (i-L>=0 &&i+1+L<len) {
-                if(s.charAt(i-L) != s.charAt(i+1+L)) {
-                    break;
-                }
-                if(2+2*L>maxLen) {
-                    beginInd = i-L;
-                    maxLen=2+2*L;
-                }
-                L++;
-            }
+        return s.substring(start, end + 1);
+    }
+
+    public static int expandAroundCenter(String s, int left, int right) {
+        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+            --left;
+            ++right;
         }
-        return s.substring(beginInd,maxLen+beginInd);
+        return right - left - 1;
     }
 
     public static void main(String[] args) {
-        String s = "cbbd";
+        String s = "caba";
         longestPalindrome(s);
     }
 }
