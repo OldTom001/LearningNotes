@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a124c734-be76-4b24-8e98-be2fc6ffecd0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/10_表单标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_表单项标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_案例_注册页面.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_HelloWorld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_文本标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_案例1_公司简介.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_图片标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_列表标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_链接标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7_块标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_表格标签.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_案例3_网站首页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/banner_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/banner_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/footer_service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/guonei_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/hot_tel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/hotel_tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/icon_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/icon_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/icon_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/icon_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/icon_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/icon_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/icon_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/jiangwai_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/jiangxuan_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/jiangxuan_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/jiangxuan_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/jiangxuan_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/jiangxuan_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/jingxuan_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/top_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/tv01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/tv02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/tv03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/tv04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/tv05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/regbtn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/register_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/verify_code.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/banner_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/banner_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/footer_service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/guonei_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/hot_tel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/hotel_tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/icon_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/icon_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/icon_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/icon_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/icon_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/icon_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/icon_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/jiangwai_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/jiangxuan_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/jiangxuan_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/jiangxuan_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/jiangxuan_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/jiangxuan_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/jingxuan_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/top_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/tv01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/tv02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/tv03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/tv04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/image/tv05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例3_旅游网首页/案例效果.bmp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1xAUNxUJDbHKi2vlqdhwS7xx8WA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\LearningNotes\Java\JavaWeb\HTML" />
+      <recent name="E:\LearningNotes\Java\JavaWeb\HTML\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\LearningNotes\Java\JavaWeb\HTML" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a124c734-be76-4b24-8e98-be2fc6ffecd0" name="Default Changelist" comment="" />
+      <created>1629797349615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629797349615</updated>
+      <workItem from="1629797352214" duration="4924000" />
+      <workItem from="1629819032896" duration="1342000" />
+      <workItem from="1629860183513" duration="7672000" />
+      <workItem from="1629881579427" duration="791000" />
+      <workItem from="1629889023208" duration="4968000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
