@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d65c824-f88b-423a-884f-707c7109c67b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/1_css与html结合方式1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_css与html结合方式3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_基础选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_扩展选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_CSS属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7_CSS属性_盒子模型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_案例_注册页面(css版).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/login_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/regbtn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/register_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/verify_code.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1xFNCTrEmCjgogauCbSI85utT5x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HTML" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\LearningNotes\Java\JavaWeb\CSS" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d65c824-f88b-423a-884f-707c7109c67b" name="Default Changelist" comment="" />
+      <created>1629946748371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629946748371</updated>
+      <workItem from="1629946749758" duration="7764000" />
+      <workItem from="1629975983261" duration="2706000" />
+      <workItem from="1630210452657" duration="769000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1629968858750">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1629968858750" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1629977558139">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1629977558139" />
+  </component>
+</project>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>扩展选择器</title>
+    <style>
+        /*后代选择器*/
+        /*只要p是div的后代, p就会被选择*/
+        div p{
+            color:red;
+        }
+        /*子选择器*/
+        /*若p是div的子元素, 则p被选择; 注意若p是div的后代但不是子, 则不会被选择*/
+        div>p{
+            border: 1px solid;
+        }
+        
+        /*属性选择器*/
+        input[type='text']{
+            border:5px solid;
+        }
+
+        /*伪类选择器*/
+        /*若没有效果, 可以改一下href的链接*/
+        a:link{
+            color: pink;
+        }
+        a:hover{
+            color: green;
+        }
+        a:active{
+            color: yellow;
+        }
+        a:visited{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>
+            这个会被子选择器选中, 也会被后代选择器选中
+        </p>
+    </div>
+    <p>黑马程序员</p>
+
+    <input type="text">
+    <input type="password">
+    <br>
+    <a href="#111">传智播客</a>
+
+</body>
+</html>
