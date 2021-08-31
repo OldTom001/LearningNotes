@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ec46cf0-76b0-4db6-8abf-d1ae671a8802" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/01_HelloWorld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_栅格系统.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_CSS全局样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_CSS全局样式2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_Bootstrap_组件_导航条.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_Bootstrap_组件_分页条.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_Bootstrap_插件_轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_Bootstrap_案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/banner_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/banner_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/footer_service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/guonei_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/hot_tel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/hotel_tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiangwai_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiangxuan_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiangxuan_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiangxuan_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiangxuan_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiangxuan_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jingxuan_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/top_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/21_DOM_获取元素对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/22_DOM_事件绑定.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/23_案例_电灯开关.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/24_BOM_Window对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/25_案例_轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/26_BOM_Location对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/27_案例_自动跳转.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/28_BOM_History对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/29_BOM_History对象2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/30_DOM_Document对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/31_DOM_Element对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/32_DOM_Node对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/33_案例_动态表格.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/34_HTMLDOM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/35_HTMLDOM_控制样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/img/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/img/banner_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/img/banner_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/img/gou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/img/off.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/img/on.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/img/register_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaScript/img/verify_code.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1xTyNPSjPqSFpyJ4AOxcj28nCXD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\LearningNotes\Java\JavaWeb\BootStrap" />
+      <recent name="E:\LearningNotes\Java\JavaWeb\BootStrap\js" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ec46cf0-76b0-4db6-8abf-d1ae671a8802" name="Default Changelist" comment="" />
+      <created>1630393331818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630393331818</updated>
+      <workItem from="1630393333300" duration="5961000" />
+      <workItem from="1630404754061" duration="602000" />
+      <workItem from="1630411505801" duration="455000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
