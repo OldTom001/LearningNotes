@@ -1,86 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45ebdd89-d691-4d40-82a7-c201e87c17fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../BootStrap/01_HelloWorld.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/02_栅格系统.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/03_CSS全局样式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/04_CSS全局样式2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/05_Bootstrap_组件_导航条.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/06_Bootstrap_组件_分页条.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/07_Bootstrap_插件_轮播图.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/08_Bootstrap_案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/banner_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/banner_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/banner_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/footer_service.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/guonei_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/hot_tel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/hotel_tel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/icon_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/icon_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/icon_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/icon_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/icon_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/icon_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/icon_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/jiangwai_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/jiangxuan_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/jiangxuan_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/jiangxuan_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/jiangxuan_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/jiangxuan_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/jingxuan_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/img/top_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootStrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21_DOM_获取元素对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22_DOM_事件绑定.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/23_案例_电灯开关.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24_BOM_Window对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25_案例_轮播图.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/26_BOM_Location对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/27_案例_自动跳转.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/28_BOM_History对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/29_BOM_History对象2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/30_DOM_Document对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/31_DOM_Element对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/32_DOM_Node对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/33_案例_动态表格.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/34_HTMLDOM.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/35_HTMLDOM_控制样式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/36_常见事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/37_事件_案例_表格全选.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/38_事件_案例_表单验证.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/banner_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/banner_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/banner_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/gou.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/off.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/on.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/register_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/verify_code.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="45ebdd89-d691-4d40-82a7-c201e87c17fd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,6 +54,7 @@
       <workItem from="1630320672782" duration="12944000" />
       <workItem from="1630391431894" duration="600000" />
       <workItem from="1630411971749" duration="3619000" />
+      <workItem from="1630495609901" duration="8000" />
     </task>
     <servers />
   </component>

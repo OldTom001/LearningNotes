@@ -1,0 +1,7 @@
+<!ELEMENT students (student+) >  <!-- +表示一次或多次 -->
+<!ELEMENT student (name,age,sex)>
+<!ELEMENT name (#PCDATA)>  <!-- #PCDATA表示字符串 -->
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>
+<!ATTLIST student number ID #REQUIRED>
+
