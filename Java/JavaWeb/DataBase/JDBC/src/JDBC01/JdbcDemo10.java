@@ -6,6 +6,9 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
+/**
+ * 事务
+ */
 public class JdbcDemo10 {
     public static void main(String[] args) {
         Connection conn = null;
