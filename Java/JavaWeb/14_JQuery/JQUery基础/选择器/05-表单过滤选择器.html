@@ -58,12 +58,10 @@
             });
 			// <input type="button" value=" 利用 jQuery 对象的 length 属性获取下拉框选中的个数"  id="b4"/>
             $("#b4").click(function () {
-                alert($("#job > option:selected").length);
+                alert($("#job > option:selected").length); <!--注意要获取jpb下的option-->
             });
 
         });
-	
-	
 	</script>
 	</head>
 	 
@@ -77,7 +75,7 @@
  
  		<br><br>
  		
-         <input type="text" value="不可用值1" disabled="disabled"> 
+         <input type="text" value="不可用值1" disabled="disabled">
 		 <input type="text" value="可用值1" >
 		 <input type="text" value="不可用值2" disabled="disabled">
 		 <input type="text" value="可用值2" >
@@ -127,12 +125,5 @@
 		       <div  class="mini01" >class是 mini01</div>
 			   <div  class="mini" >class是 mini</div>
 		</div>
-		
 	</body>
-	
-	
-   
 </html>
-
-
-

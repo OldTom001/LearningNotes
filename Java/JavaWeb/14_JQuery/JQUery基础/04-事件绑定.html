@@ -14,13 +14,16 @@
             });
 
         }*/
-     /*   //jquery入口函数(dom文档加载完成之后执行该函数中的代码)
+
+        //jquery入口函数优化上面的代码(dom文档加载完成之后执行该函数中的代码)
        $(function () {
             //1.获取b1按钮
            $("#b1").click(function(){
                alert("abc");
            });
-       });*/
+       });
+
+        //window.onload只能定义一次
        /* function fun1(){
             alert("abc");
         }
@@ -29,41 +32,34 @@
             alert("bcd");
         }
         window.onload = fun1;
-        //window.onload = fun2;
+        //window.onload = fun2; //会把window.onload = fun1覆盖掉, 只会弹出bcd而不会弹出abc
+        //所以window.onload只能定义一次, 而$function可以定义多次(不会覆盖)
 */
 
-      /* $(function(){
+        //$(function()可以定义多次, 不会覆盖
+       $(function(){
            alert(123);
        });
 
        $(function(){
            alert(234);
        });
-*/
 
-
+        //将背景色设置成红色
       $(function(){
-          // $("#div1").css("background-color","red");
-          $("#div1").css("backgroundColor","pink");
+          // $("#div1").css("background-color","red"); //键是CSS样式名称
+          $("#div1").css("backgroundColor","pink"); //键用DOM写法, 鼠标放上去可以检查是否写错.
       });
         /*
              window.onload  和 $(function) 区别
                  * window.onload 只能定义一次,如果定义多次，后边的会将前边的覆盖掉
                  * $(function)可以定义多次的。
           */
-
-
     </script>
-
 </head>
 <body>
-
     <div id="div1">div1....</div>
     <div id="div2">div2....</div>
     <input type="button" value="点我" id="b1">
-
-
-
-
 </body>
 </html>

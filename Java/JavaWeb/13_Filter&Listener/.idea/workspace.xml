@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Filter&amp;Listener:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b95d9d9-1fea-4165-b5b3-8631402c318a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../12_case_1/src/web/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_case_1/src/web/filter/SensitiveWordsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../12_case_1/src/web/servlet/TestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/Lenovo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/SellComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/filter/FilterDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/filter/FilterDemo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/filter/FilterDemo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web/listener/ContextLoaderListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例1_登陆验证_需求.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/案例2_过滤敏感词汇_需求.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/01_HelloWorld.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/02_栅格系统.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/03_CSS全局样式.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/04_CSS全局样式2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/05_Bootstrap_组件_导航条.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/06_Bootstrap_组件_分页条.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/07_Bootstrap_插件_轮播图.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/08_Bootstrap_案例.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/BootStrap.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/banner_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/banner_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/banner_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/footer_service.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/guonei_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/hot_tel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/hotel_tel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/icon_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/icon_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/icon_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/icon_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/icon_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/icon_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/icon_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/jiangwai_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/jiangxuan_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/jiangxuan_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/jiangxuan_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/jiangxuan_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/jiangxuan_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/jingxuan_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/img/top_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/js/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootStrap/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSS/1_css与html结合方式1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSS/2_css与html结合方式2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSS/3_css与html结合方式3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSS/4_基础选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSS/5_扩展选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSS/6_CSS属性.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSS/7_CSS属性_盒子模型.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSS/8_案例_注册页面(css版).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSS/CSS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSS/css/a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSS/img/login_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSS/img/login_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSS/img/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSS/img/regbtn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSS/img/register_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSS/img/verify_code.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataBase.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataSource_JDBCTemplate/DataSource_JDBCTemplate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataSource_JDBCTemplate/libs/c3p0-0.9.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataSource_JDBCTemplate/libs/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataSource_JDBCTemplate/libs/druid-1.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataSource_JDBCTemplate/libs/mchange-commons-java-0.2.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataSource_JDBCTemplate/libs/mysql-connector-java-5.1.37-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataSource_JDBCTemplate/libs/spring-beans-5.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataSource_JDBCTemplate/libs/spring-core-5.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataSource_JDBCTemplate/libs/spring-jdbc-5.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataSource_JDBCTemplate/libs/spring-tx-5.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataSource_JDBCTemplate/src/DataSource/C3P0/C3P0Demo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataSource_JDBCTemplate/src/DataSource/C3P0/C3P0Demo02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataSource_JDBCTemplate/src/DataSource/Druid/DruidDemo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataSource_JDBCTemplate/src/DataSource/Druid/DruidDemo02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataSource_JDBCTemplate/src/DataSource/JdbcTemplate/JdbcTemplateDemo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataSource_JDBCTemplate/src/DataSource/JdbcTemplate/JdbcTemplateDemo02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataSource_JDBCTemplate/src/c3p0-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataSource_JDBCTemplate/src/domain/Emp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataSource_JDBCTemplate/src/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/DataSource_JDBCTemplate/src/utils/JDBCUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/JDBC/JDBC.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/JDBC/Libs/mysql-connector-java-5.1.37-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/JDBC/src/JDBC01/JdbcDemo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/JDBC/src/JDBC01/JdbcDemo02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/JDBC/src/JDBC01/JdbcDemo03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/JDBC/src/JDBC01/JdbcDemo04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/JDBC/src/JDBC01/JdbcDemo05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/JDBC/src/JDBC01/JdbcDemo06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/JDBC/src/JDBC01/JdbcDemo07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/JDBC/src/JDBC01/JdbcDemo08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/JDBC/src/JDBC01/JdbcDemo09.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/JDBC/src/JDBC01/JdbcDemo10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/JDBC/src/domain/Emp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/JDBC/src/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/JDBC/src/util/JdbcUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/DataSource_JDBCTemplate/DataSource/C3P0/C3P0Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/DataSource_JDBCTemplate/DataSource/C3P0/C3P0Demo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/DataSource_JDBCTemplate/DataSource/Druid/DruidDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/DataSource_JDBCTemplate/DataSource/Druid/DruidDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/DataSource_JDBCTemplate/DataSource/JdbcTemplate/JdbcTemplateDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/DataSource_JDBCTemplate/DataSource/JdbcTemplate/JdbcTemplateDemo02$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/DataSource_JDBCTemplate/DataSource/JdbcTemplate/JdbcTemplateDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/DataSource_JDBCTemplate/c3p0-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/DataSource_JDBCTemplate/domain/Emp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/DataSource_JDBCTemplate/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/DataSource_JDBCTemplate/utils/JDBCUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/JDBC/JDBC01/JdbcDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/JDBC/JDBC01/JdbcDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/JDBC/JDBC01/JdbcDemo03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/JDBC/JDBC01/JdbcDemo04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/JDBC/JDBC01/JdbcDemo05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/JDBC/JDBC01/JdbcDemo06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/JDBC/JDBC01/JdbcDemo07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/JDBC/JDBC01/JdbcDemo08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/JDBC/JDBC01/JdbcDemo09.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/JDBC/JDBC01/JdbcDemo10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/JDBC/META-INF/JDBC.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/JDBC/domain/Emp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/JDBC/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataBase/out/production/JDBC/util/JdbcUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/10_表单标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/11_表单项标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/12_案例_注册页面.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/1_HelloWorld.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/2_文本标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/3_案例1_公司简介.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/4_图片标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/5_列表标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/6_链接标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/7_块标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/8_表格标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/9_案例3_网站首页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/HTML.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/banner_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/banner_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/banner_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/footer_service.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/guonei_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/hot_tel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/hotel_tel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/icon_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/icon_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/icon_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/icon_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/icon_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/icon_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/icon_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/jiangwai_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/jiangxuan_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/jiangxuan_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/jiangxuan_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/jiangxuan_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/jiangxuan_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/jingxuan_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/top_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/tv01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/tv02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/tv03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/tv04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/image/tv05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/img/login_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/img/login_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/img/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/img/regbtn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/img/register_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/img/verify_code.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/banner_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/banner_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/banner_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/footer_service.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/guonei_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/hot_tel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/hotel_tel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/icon_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/icon_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/icon_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/icon_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/icon_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/icon_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/icon_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/jiangwai_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/jiangxuan_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/jiangxuan_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/jiangxuan_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/jiangxuan_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/jiangxuan_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/jingxuan_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/top_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/tv01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/tv02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/tv03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/tv04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/image/tv05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HTML/案例3_旅游网首页/案例效果.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/JavaSEBooster.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Junit/Junit.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Junit/src/Junit01/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Junit/src/Junit01/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Junit/src/Test/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Reflect/Reflect.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Reflect/src/Annotation01/AnnoDemo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Reflect/src/Annotation01/Case/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Reflect/src/Annotation01/Case/Check.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Reflect/src/Annotation01/Case/TestCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Reflect/src/Annotation01/Class01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Reflect/src/Annotation01/Class02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Reflect/src/Annotation01/MyAnno3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Reflect/src/Annotation01/Pro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Reflect/src/Annotation01/ReflectTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Reflect/src/Domain/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Reflect/src/Domain/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Reflect/src/Reflect01/ReflectDemo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Reflect/src/Reflect01/ReflectDemo02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Reflect/src/Reflect01/ReflectDemo03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Reflect/src/Reflect01/ReflectDemo04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Reflect/src/Reflect01/ReflectTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/Reflect/src/pro.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/bug.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/out/production/Junit/Junit01/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/out/production/Junit/Junit01/CalculatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/out/production/Junit/Test/CalculatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/out/production/Reflect/Annotation01/AnnoDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/out/production/Reflect/Annotation01/Case/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/out/production/Reflect/Annotation01/Case/Check.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/out/production/Reflect/Annotation01/Case/TestCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/out/production/Reflect/Annotation01/Class01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/out/production/Reflect/Annotation01/Class02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/out/production/Reflect/Annotation01/MyAnno3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/out/production/Reflect/Annotation01/Pro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/out/production/Reflect/Annotation01/ReflectTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/out/production/Reflect/Domain/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/out/production/Reflect/Domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/out/production/Reflect/Reflect01/ReflectDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/out/production/Reflect/Reflect01/ReflectDemo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/out/production/Reflect/Reflect01/ReflectDemo03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/out/production/Reflect/Reflect01/ReflectDemo04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/out/production/Reflect/Reflect01/ReflectTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSEBooster/out/production/Reflect/pro.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/10_JS特殊语法.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/11_语句_switch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/12_语句_while.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/13_语句_for.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/14_练习_99乘法表r.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/15_对象_Function.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/16_对象_Array.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/17_对象_Date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/18_对象_Math.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/19_对象_RegExp正则表达式.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/1_JS与html结合方式.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/20_对象_Global.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/21_DOM_获取元素对象.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/22_DOM_事件绑定.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/23_案例_电灯开关.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/24_BOM_Window对象.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/25_案例_轮播图.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/26_BOM_Location对象.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/27_案例_自动跳转.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/28_BOM_History对象.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/29_BOM_History对象2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/30_DOM_Document对象.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/31_DOM_Element对象.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/32_DOM_Node对象.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/33_案例_动态表格.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/34_HTMLDOM.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/35_HTMLDOM_控制样式.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/36_常见事件.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/37_事件_案例_表格全选.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/38_事件_案例_表单验证.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/3_变量.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/4_变量_typeof.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/5_运算符_一元运算符.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/6_运算符_算数运算符.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/7_运算符_比较运算符.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/8_运算符_逻辑运算符.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/9_运算符_三元运算符.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/JavaScript.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/img/banner_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/img/banner_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/img/banner_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/img/gou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/img/off.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/img/on.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/img/register_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/img/verify_code.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScript/js/a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/MyServlet/MyServlet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/MyServlet/src/request/RequestDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/MyServlet/src/request/RequestDemo10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/MyServlet/src/request/RequestDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/MyServlet/src/request/RequestDemo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/MyServlet/src/request/RequestDemo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/MyServlet/src/request/RequestDemo5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/MyServlet/src/request/RequestDemo6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/MyServlet/src/request/RequestDemo7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/MyServlet/src/request/RequestDemo8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/MyServlet/src/request/RequestDemo9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/MyServlet/src/servlet/ServletDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/MyServlet/src/servlet/ServletDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/MyServlet/src/servlet/ServletDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/MyServlet/src/servlet/ServletDemo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/MyServlet/src/servlet/ServletDemo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/MyServlet/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/MyServlet/web/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/MyServlet/web/regist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/MyServlet/web/regist2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/Tomcat&amp;Servlet&amp;Http&amp;Request.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/case_login.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/src/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/src/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/src/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/src/text/BeanUtilsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/src/text/UserDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/src/util/JDBCUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/src/web/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/src/web/failServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/src/web/successServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/web/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/web/WEB-INF/lib/druid-1.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/web/WEB-INF/lib/mchange-commons-java-0.2.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/web/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/web/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/web/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/web/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/web/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/case_login/web/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyServlet_war_exploded/WEB-INF/classes/META-INF/MyServlet.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyServlet_war_exploded/WEB-INF/classes/request/RequestDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyServlet_war_exploded/WEB-INF/classes/request/RequestDemo10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyServlet_war_exploded/WEB-INF/classes/request/RequestDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyServlet_war_exploded/WEB-INF/classes/request/RequestDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyServlet_war_exploded/WEB-INF/classes/request/RequestDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyServlet_war_exploded/WEB-INF/classes/request/RequestDemo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyServlet_war_exploded/WEB-INF/classes/request/RequestDemo6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyServlet_war_exploded/WEB-INF/classes/request/RequestDemo7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyServlet_war_exploded/WEB-INF/classes/request/RequestDemo8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyServlet_war_exploded/WEB-INF/classes/request/RequestDemo9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyServlet_war_exploded/WEB-INF/classes/servlet/ServletDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyServlet_war_exploded/WEB-INF/classes/servlet/ServletDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyServlet_war_exploded/WEB-INF/classes/servlet/ServletDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyServlet_war_exploded/WEB-INF/classes/servlet/ServletDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyServlet_war_exploded/WEB-INF/classes/servlet/ServletDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyServlet_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyServlet_war_exploded/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyServlet_war_exploded/regist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyServlet_war_exploded/regist2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyTomcat_war_exploded/WEB-INF/classes/servlet/ServletDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyTomcat_war_exploded/WEB-INF/classes/servlet/ServletDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyTomcat_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyTomcat_war_exploded/bye.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyTomcat_war_exploded/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyTomcat_war_exploded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/MyTomcat_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/WEB-INF/classes/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/WEB-INF/classes/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/WEB-INF/classes/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/WEB-INF/classes/text/BeanUtilsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/WEB-INF/classes/text/UserDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/WEB-INF/classes/util/JDBCUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/WEB-INF/classes/web/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/WEB-INF/classes/web/failServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/WEB-INF/classes/web/successServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/WEB-INF/lib/commons-beanutils-1.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/WEB-INF/lib/druid-1.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/WEB-INF/lib/mchange-commons-java-0.2.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/artifacts/case_login_war_exploded/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/MyServlet/META-INF/MyServlet.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/MyServlet/request/RequestDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/MyServlet/request/RequestDemo10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/MyServlet/request/RequestDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/MyServlet/request/RequestDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/MyServlet/request/RequestDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/MyServlet/request/RequestDemo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/MyServlet/request/RequestDemo6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/MyServlet/request/RequestDemo7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/MyServlet/request/RequestDemo8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/MyServlet/request/RequestDemo9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/MyServlet/servlet/ServletDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/MyServlet/servlet/ServletDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/MyServlet/servlet/ServletDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/MyServlet/servlet/ServletDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/MyServlet/servlet/ServletDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/Tomcat&amp;Servlet&amp;Http&amp;Request/servlet/ServletDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/Tomcat&amp;Servlet&amp;Http&amp;Request/servlet/ServletDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/case_login/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/case_login/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/case_login/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/case_login/text/BeanUtilsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/case_login/text/UserDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/case_login/util/JDBCUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/case_login/web/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/case_login/web/failServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/out/production/case_login/web/successServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/src/servlet/ServletDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/src/servlet/ServletDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/web/bye.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/web/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tomcat&amp;Servlet&amp;Http&amp;Request/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/XML.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/libs/JsoupXpath-0.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/libs/jsoup-1.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/out/production/XML/dtd/student.dtd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/out/production/XML/dtd/student.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/out/production/XML/jsoup/JsoupDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/out/production/XML/jsoup/JsoupDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/out/production/XML/jsoup/JsoupDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/out/production/XML/jsoup/JsoupDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/out/production/XML/schema/student.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/out/production/XML/schema/student.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/out/production/XML/student.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/src/dtd/student.dtd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/src/dtd/student.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/src/jsoup/JsoupDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/src/jsoup/JsoupDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/src/jsoup/JsoupDemo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/src/jsoup/JsoupDemo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/src/jsoup/JsoupDemo5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/src/jsoup/JsoupDemo6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/src/schema/student.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/src/schema/student.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XML/src/student.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1yzs68SrLVWRBuDx8GXLoYOPzZA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="web.filter" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\LearningNotes\Java\JavaWeb\13_Filter&amp;Listener" />
+      <recent name="E:\LearningNotes\Java\JavaWeb\Filter&amp;Listener\src\web\servlet" />
+      <recent name="E:\LearningNotes\Java\JavaWeb\Filter&amp;Listener\web" />
+      <recent name="E:\LearningNotes\Java\JavaWeb\Filter&amp;Listener\src\web\filter" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Filter&amp;Listener">
+    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="proxy.ProxyTest" />
+      <module name="Filter&amp;Listener" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Filter&amp;Listener" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.70" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="Filter&amp;Listener:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Filter&amp;Listener/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_70_Filter&amp;Listener" />
+        <option name="HTTP_PORT" value="80" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="18864" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Filter&amp;Listener:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProxyTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b95d9d9-1fea-4165-b5b3-8631402c318a" name="Default Changelist" comment="" />
+      <created>1633265572380</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633265572380</updated>
+      <workItem from="1633265576089" duration="2308000" />
+      <workItem from="1633315656971" duration="3599000" />
+      <workItem from="1633322809295" duration="57000" />
+      <workItem from="1633334207119" duration="2847000" />
+      <workItem from="1633339972398" duration="1578000" />
+      <workItem from="1633400166100" duration="648000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633317778613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.-482.1536.824@0.0.1536.824" timestamp="1633317778613" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1633340243796">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.-482.1536.824@0.0.1536.824" timestamp="1633340243796" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1633320145398">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.-482.1536.824@0.0.1536.824" timestamp="1633320145398" />
+    <state width="1024" height="260" key="GridCell.Tab.0.bottom" timestamp="1633341570767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-482.1536.824@0.0.1536.824" timestamp="1633341570767" />
+    <state width="1024" height="260" key="GridCell.Tab.0.center" timestamp="1633341570767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="260" key="GridCell.Tab.0.center/0.0.1536.824/1920.-482.1536.824@0.0.1536.824" timestamp="1633341570767" />
+    <state width="1024" height="260" key="GridCell.Tab.0.left" timestamp="1633341570767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="260" key="GridCell.Tab.0.left/0.0.1536.824/1920.-482.1536.824@0.0.1536.824" timestamp="1633341570767" />
+    <state width="1024" height="260" key="GridCell.Tab.0.right" timestamp="1633341570767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="260" key="GridCell.Tab.0.right/0.0.1536.824/1920.-482.1536.824@0.0.1536.824" timestamp="1633341570767" />
+    <state width="1024" height="260" key="GridCell.Tab.1.bottom" timestamp="1633341570767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.-482.1536.824@0.0.1536.824" timestamp="1633341570767" />
+    <state width="1024" height="260" key="GridCell.Tab.1.center" timestamp="1633341570767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="260" key="GridCell.Tab.1.center/0.0.1536.824/1920.-482.1536.824@0.0.1536.824" timestamp="1633341570767" />
+    <state width="1024" height="260" key="GridCell.Tab.1.left" timestamp="1633341570767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="260" key="GridCell.Tab.1.left/0.0.1536.824/1920.-482.1536.824@0.0.1536.824" timestamp="1633341570767" />
+    <state width="1024" height="260" key="GridCell.Tab.1.right" timestamp="1633341570767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="260" key="GridCell.Tab.1.right/0.0.1536.824/1920.-482.1536.824@0.0.1536.824" timestamp="1633341570767" />
+    <state width="1024" height="260" key="GridCell.Tab.2.bottom" timestamp="1633341570767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="260" key="GridCell.Tab.2.bottom/0.0.1536.824/1920.-482.1536.824@0.0.1536.824" timestamp="1633341570767" />
+    <state width="1024" height="260" key="GridCell.Tab.2.center" timestamp="1633341570767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="260" key="GridCell.Tab.2.center/0.0.1536.824/1920.-482.1536.824@0.0.1536.824" timestamp="1633341570767" />
+    <state width="1024" height="260" key="GridCell.Tab.2.left" timestamp="1633341570767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="260" key="GridCell.Tab.2.left/0.0.1536.824/1920.-482.1536.824@0.0.1536.824" timestamp="1633341570767" />
+    <state width="1024" height="260" key="GridCell.Tab.2.right" timestamp="1633341570767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="260" key="GridCell.Tab.2.right/0.0.1536.824/1920.-482.1536.824@0.0.1536.824" timestamp="1633341570767" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1633266592075">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824/1920.-482.1536.824@0.0.1536.824" timestamp="1633266592075" />
+    <state x="178" y="0" key="new project wizard" timestamp="1633401083777">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="0" key="new project wizard/0.0.1536.824/1920.-482.1536.824@0.0.1536.824" timestamp="1633401083777" />
+  </component>
+</project>

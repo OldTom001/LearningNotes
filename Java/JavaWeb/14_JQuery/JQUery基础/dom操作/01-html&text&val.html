@@ -8,17 +8,17 @@
 
 			$(function () {
                 // 获取myinput 的value值
-				//var value = $("#myinput").val();
-				//alert(value);
-                //$("#myinput").val("李四");
+				var value = $("#myinput").val(); //获取
+				alert(value);
+                $("#myinput").val("李四"); //设置
                 // 获取mydiv的标签体内容
-				//var html = $("#mydiv").html();
-				//alert(html);
-                //$("#mydiv").html("<p>aaaa</p>");
+				var html = $("#mydiv").html(); //获取
+				alert(html);
+                $("#mydiv").html("<p>aaaa</p>"); //设置
                 // 获取mydiv文本内容
-                //var text = $("#mydiv").text();
-                //alert(text);
-                $("#mydiv").text("bbb");
+                var text = $("#mydiv").text(); //获取
+                alert(text);
+                $("#mydiv").text("bbb"); //设置, 会将div标签下的所有内容设置成bbb, <p>和<a>都没了
 
             });
 

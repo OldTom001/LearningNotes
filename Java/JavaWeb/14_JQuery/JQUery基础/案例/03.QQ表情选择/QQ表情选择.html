@@ -18,7 +18,8 @@
             //1.给img图片添加onclick事件
             $("ul img").click(function(){
                 //2.追加到p标签中即可。
-                $(".word").append($(this).clone());
+                $(".word").append($(this).clone()); //this是一个js对象, 先转成jq对象, 然后调用clone方法
+                //点谁谁就是this, 如果不写clone的话每个表情只能点一次
             });
 
         });

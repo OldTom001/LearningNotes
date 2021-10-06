@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>点击切换验证码</title>
+
+    <script>
+
+        window.onload = function () {
+
+            var img = document.getElementById("checkCode");
+            //点击图片更换验证码
+            img.onclick=function () {
+
+                var date = new Date().getTime();
+                img.src="/HttpResponse_war_exploded/checkCodeServlet?" + date;
+            }
+
+            var ref = document.getElementById("change");
+            //点击超链接更换验证码
+            ref.onclick=function () {
+
+                var date = new Date().getTime();
+                img.src="/HttpResponse_war_exploded/checkCodeServlet?" + date;
+            }
+
+
+        }
+
+
+
+    </script>
+
+</head>
+<body>
+
+    <img id="checkCode" src = "/HttpResponse_war_exploded/checkCodeServlet" />
+    <!-- 仅绑定单击事件, 点击超链接不跳转 -->
+    <a id="change" href="javascript:void(0)">看不清? 换一张</a>
+
+</body>
+</html>

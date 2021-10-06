@@ -8,26 +8,26 @@
 		<script>
 			//需求：将数据行的奇数行背景色设置为 pink，偶数行背景色设置为 yellow
 			$(function () {
-				//1. 获取数据行的奇数行的tr，设置背景色为pink
+				//1. 获取数据行的奇数行的tr，设置背景色为pink, 行编号大于1, 且为奇数
 				$("tr:gt(1):odd").css("backgroundColor","pink");
-				//2. 获取数据行的偶数行的tr,设置背景色为yellow
+				//2. 获取数据行的偶数行的tr,设置背景色为yellow, 行编号大于1, 且为偶数
                 $("tr:gt(1):even").css("backgroundColor","yellow");
             });
 		</script>
 	</head>
 	<body>
 		<table id="tab1" border="1" width="800" align="center" >
-			<tr>
+			<tr>  <!-- 编号为0 -->
 				<td colspan="5"><input type="button" value="删除"></td>
 			</tr>
-			<tr style="background-color: #999999;">
+			<tr style="background-color: #999999;">  <!-- 编号为1 -->
 				<th><input type="checkbox"></th>
 				<th>分类ID</th>
 				<th>分类名称</th>
 				<th>分类描述</th>
 				<th>操作</th>
 			</tr>
-			<tr>
+			<tr> <!-- 编号为2 数据行开始 -->
 				<td><input type="checkbox"></td>
 				<td>0</td>
 				<td>手机数码</td>

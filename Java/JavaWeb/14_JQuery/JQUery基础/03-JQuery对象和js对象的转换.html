@@ -15,31 +15,33 @@
 <script>
   //1. 通过js方式来获取名称叫div的所有html元素对象
     var divs = document.getElementsByTagName("div");
+    alert(divs);
     alert(divs.length);//可以将其当做数组来使用
     //对divs中所有的div 让其标签体内容变为"aaa"
   for (var i = 0; i < divs.length; i++) {
       //divs[i].innerHTML = "aaa";
-      $(divs[i]).html("ccc");
+      $(divs[i]).html("ccc"); //js对象转成jq对象, 生效
   }
 
     //2. 通过jq方式来获取名称叫div的所有html元素对象
     var $divs = $("div");
 
-  alert($divs.length);//也可以当做数组使用
+  alert($divs);//也可以当做数组使用
+  alert($divs.length);
 
   //对divs中所有的div 让其标签体内容变为"bbb"  使用jq方式
-    //$divs.html("bbb");
-   // $divs.innerHTML = "bbb";
+    //$divs.html("bbb"); //生效
+   // $divs.innerHTML = "bbb"; //不生效, 因为不通用
 
-  $divs[0].innerHTML = "ddd";
-  $divs.get(1).innerHTML = "eee";
+  $divs[0].innerHTML = "ddd"; //第1个div改成ddd, jq转js, 生效
+  $divs.get(1).innerHTML = "eee"; //第2个div改成eee, jq转js, 生效
 
 
     /*
         1. JQuery对象在操作时，更加方便。
         2. JQuery对象和js对象方法不通用的.
         3. 两者相互转换
-            * jq -- > js : jq对象[索引] 或者 jq对象.get(索引)
+            * jq -- > js : jq对象[索引] 或者 jq对象.get(索引)   jq对象是个数组, 拿到元素即可
             * js -- > jq : $(js对象)
      */
 

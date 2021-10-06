@@ -36,44 +36,37 @@
 
 			 $("#b1").click(function () {
 				 //append
-				 //$("#city").append($("#fk"));
+				 $("#city").append($("#fk"));
 				 //appendTo
-                 $("#fk").appendTo($("#city"));
+                 // $("#fk").appendTo($("#city"));
              });
              // <input type="button" value="将反恐放置到city的最前面"  id="b2"/>
              $("#b2").click(function () {
                  //prepend
-                 //$("#city").prepend($("#fk"));
+                 $("#city").prepend($("#fk"));
                  //prependTo
-                 $("#fk").prependTo($("#city"));
+                 // $("#fk").prependTo($("#city"));
              });
              // <input type="button" value="将反恐插入到天津后面"  id="b3"/>
              $("#b3").click(function () {
                  //after
-				 //$("#tj").after($("#fk"));
+				 $("#tj").after($("#fk"));
                  //insertAfter
-                 $("#fk").insertAfter($("#tj"));
+                 // $("#fk").insertAfter($("#tj"));
 
              });
              // <input type="button" value="将反恐插入到天津前面"  id="b4"/>
              $("#b4").click(function () {
                  //before
-                 //$("#tj").before($("#fk"));
+                 $("#tj").before($("#fk"));
                  //insertBefore
-                 $("#fk").insertBefore($("#tj"));
+                 // $("#fk").insertBefore($("#tj"));
 
              });
          });
-
-
-		
 	</script>
-	 
-	 
 	</head>
-	 
 	<body>
-
 		<input type="button" value="将反恐放置到city的后面"  id="b1"/>
 		<input type="button" value="将反恐放置到city的最前面"  id="b2"/>
 		<input type="button" value="将反恐插入到天津后面"  id="b3"/>
@@ -83,20 +76,12 @@
 			 <li id="tj" name="tianjin">天津</li>
 			 <li id="cq" name="chongqing">重庆</li>
 		 </ul>
-		 
-		 
+
 		  <ul id="love">
 		 	 <li id="fk" name="fankong">反恐</li>
 			 <li id="xj" name="xingji">星际</li>
 		 </ul>
 		
-		<div id="foo1">Hello1</div> 
-       
+		<div id="foo1">Hello1</div>
 	</body>
-	
-	
-   
 </html>
-
-
-
