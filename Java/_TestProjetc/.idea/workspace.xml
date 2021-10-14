@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e83683a-91e0-4e73-8528-81919853146a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/14_JQuery/JQuery高级/01-jquery动画/01-显示隐藏动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/14_JQuery/JQuery高级/02-jquery遍历/01-遍历.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/14_JQuery/JQuery高级/03-jquery事件绑定与解绑/01-绑定事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/14_JQuery/JQuery高级/03-jquery事件绑定与解绑/02-on绑定事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/14_JQuery/JQuery高级/03-jquery事件绑定与解绑/03-事件切换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/14_JQuery/JQuery高级/04-jQuery综合案例/广告的自动显示与隐藏.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/14_JQuery/JQuery高级/04-jQuery综合案例/抽奖.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/14_JQuery/JQuery高级/05-jQuery的插件/01-jQuery对象进行方法扩展.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/14_JQuery/JQuery高级/05-jQuery的插件/02-jQuery全局进行方法扩展.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/14_JQuery/JQuery高级/img/adv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/14_JQuery/JQuery高级/img/man00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/14_JQuery/JQuery高级/img/man01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/14_JQuery/JQuery高级/img/man02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/14_JQuery/JQuery高级/img/man03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/14_JQuery/JQuery高级/img/man04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/14_JQuery/JQuery高级/img/man05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/14_JQuery/JQuery高级/img/man06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/14_JQuery/JQuery高级/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/14_JQuery/JQuery高级/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/14_JQuery/JQuery高级/js/jquery-migrate-1.0.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/15_Ajax&amp;Json/src/web/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/15_Ajax&amp;Json/src/web/servlet/AjaxServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/15_Ajax&amp;Json/src/web/servlet/FindUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/15_Ajax&amp;Json/src/web/test/JacksonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/15_Ajax&amp;Json/web/01-原生js实现ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/15_Ajax&amp;Json/web/02-JQuery实现方式1_ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/15_Ajax&amp;Json/web/03-JQuery实现方式2_get.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/15_Ajax&amp;Json/web/04-JQuery实现方式3_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/15_Ajax&amp;Json/web/05-json数据语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/15_Ajax&amp;Json/web/06-json数据语法_遍历.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/15_Ajax&amp;Json/web/07-regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/15_Ajax&amp;Json/web/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/15_Ajax&amp;Json/web/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/15_Ajax&amp;Json/web/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/15_Ajax&amp;Json/web/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/15_Ajax&amp;Json/web/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/15_Ajax&amp;Json/web/js/jquery-migrate-1.0.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/src/dao/ProvinceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/src/dao/impl/ProvinceDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/src/domain/Province.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/src/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/src/jedis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/src/service/ProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/src/service/impl/ProvinceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/src/util/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/src/util/JedisPoolUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/src/web/servlet/ProvinceServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/web/WEB-INF/lib/commons-pool2-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/web/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/web/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/web/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/web/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/web/WEB-INF/lib/jedis-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/web/WEB-INF/lib/jstl-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/web/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/web/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/web/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/web/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/web/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/web/js/jquery-3.6.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/case/web/js/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/src/jedis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/src/jedis/test/JedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/src/jedis/util/JedisPoolUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/web/WEB-INF/lib/commons-pool2-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/16_Jedis/web/WEB-INF/lib/jedis-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/17_mavenProject/maven_java_1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/17_mavenProject/maven_java_1/src/main/java/demo/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/17_mavenProject/maven_java_1/src/test/java/test/TestHello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/17_mavenProject/maven_java_2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/17_mavenProject/maven_java_2/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/17_mavenProject/maven_java_2/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/17_mavenProject/maven_web_1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/17_mavenProject/maven_web_1/src/main/java/web/servlet/DemoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/17_mavenProject/maven_web_1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/17_mavenProject/maven_web_1/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_reflect_toString/src/ObjectAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_reflect_toString/src/ObjectAnalyzerTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1zLSkbKXUhHBq4EdmFWcqOWmywk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/1_reflect_toString/src" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\LearningNotes\Java\_TestProjetc\1_reflect_toString\src" />
+      <recent name="E:\LearningNotes\Java\_TestProjetc\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ObjectAnalyzerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectAnalyzerTest" />
+      <module name="_TestProjetc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ObjectAnalyzerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e83683a-91e0-4e73-8528-81919853146a" name="Default Changelist" comment="" />
+      <created>1633926018573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633926018573</updated>
+      <workItem from="1633926025177" duration="5420000" />
+      <workItem from="1633942097317" duration="260000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633926063690">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1633926063690" />
+    <state width="1493" height="198" key="GridCell.Tab.0.bottom" timestamp="1633939223390">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.bottom/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1633939223390" />
+    <state width="1493" height="198" key="GridCell.Tab.0.center" timestamp="1633939223390">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.center/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1633939223390" />
+    <state width="1493" height="198" key="GridCell.Tab.0.left" timestamp="1633939223390">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.left/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1633939223390" />
+    <state width="1493" height="198" key="GridCell.Tab.0.right" timestamp="1633939223390">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.right/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1633939223390" />
+    <state width="1493" height="203" key="GridCell.Tab.1.bottom" timestamp="1633939223387">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.1.bottom/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1633939223387" />
+    <state width="1493" height="203" key="GridCell.Tab.1.center" timestamp="1633939223386">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.1.center/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1633939223386" />
+    <state width="1493" height="203" key="GridCell.Tab.1.left" timestamp="1633939223386">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.1.left/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1633939223386" />
+    <state width="1493" height="203" key="GridCell.Tab.1.right" timestamp="1633939223386">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.1.right/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1633939223386" />
+    <state x="313" y="137" width="909" height="640" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1633927339721">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="313" y="137" width="909" height="640" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1633927339721" />
+    <state x="178" y="18" key="new project wizard" timestamp="1633939196797">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="178" y="18" key="new project wizard/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1633939196797" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1633926920384">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1633926920384" />
+  </component>
+</project>

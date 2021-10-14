@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/14_JQuery.iml" filepath="$PROJECT_DIR$/14_JQuery.iml" />
       <module fileurl="file://$PROJECT_DIR$/JQUery基础/JQUery基础.iml" filepath="$PROJECT_DIR$/JQUery基础/JQUery基础.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JQuery高级/JQuery高级.iml" filepath="$PROJECT_DIR$/JQuery高级/JQuery高级.iml" />
     </modules>
   </component>
 </project>
