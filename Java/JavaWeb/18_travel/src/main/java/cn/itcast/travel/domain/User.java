@@ -30,7 +30,7 @@ public class User implements Serializable {
      * @param password
      * @param name
      * @param birthday
-     * @param sex
+     * @param gender
      * @param telephone
      * @param email
      * @param status

@@ -14,6 +14,7 @@ public class RouteDaoImpl implements RouteDao {
     @Override
     public int findTotalCount(int cid, String rname) {
 //        String sql = "select count(*) from tab_route where cid = ? ";
+        // 多条件组合查询, 需要先判断条件是否存在
         String sql = "select count(*) from tab_route where 1=1 ";
         StringBuilder sb = new StringBuilder(sql);
 
@@ -23,7 +24,7 @@ public class RouteDaoImpl implements RouteDao {
             sb.append(" and cid = ? ");
             params.add(cid);
         }
-        if(rname!=null && rname.length()>0) {
+        if(rname!=null && rname.length()>0 && !"null".equals(rname)) {
             sb.append(" and rname like ? ");
             params.add("%"+rname+"%");
         }
@@ -44,7 +45,7 @@ public class RouteDaoImpl implements RouteDao {
             sb.append(" and cid = ? ");
             params.add(cid);
         }
-        if(rname!=null && rname.length()>0) {
+        if(rname!=null && rname.length()>0 && !"null".equals(rname)) {
             sb.append(" and rname like ? ");
             params.add("%"+rname+"%");
         }
@@ -55,5 +56,11 @@ public class RouteDaoImpl implements RouteDao {
         sql = sb.toString();
 
         return template.query(sql, new BeanPropertyRowMapper<Route>(Route.class), params.toArray());
+    }
+
+    @Override
+    public Route findOne(int rid) {
+        String sql = "select * from tab_route where rid = ? ";
+        return template.queryForObject(sql, new BeanPropertyRowMapper<Route>(Route.class), rid);
     }
 }

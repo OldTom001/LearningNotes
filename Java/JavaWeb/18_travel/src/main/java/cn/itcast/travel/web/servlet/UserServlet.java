@@ -183,7 +183,8 @@ public class UserServlet extends BaseServlet {
             String msg = null;
             if (flag) {
                 //激活成功
-                msg = "激活成功, 请<a href='login.html'>登陆</a>";
+                //msg = "激活成功, 请<a href='login.html'>登陆</a>";
+                msg = "激活成功, 请<a href='http://localhost/travel/login.html'>登陆</a>";
 
             } else {
                 msg = "激活失败, 请联系管理员";

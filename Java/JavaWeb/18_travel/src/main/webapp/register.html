@@ -23,7 +23,7 @@
 				var username = $("#username").val();
 				//2. 定义正则
 				var reg_username = /^\w{8,20}$/;
-				//3. 判断, 给出提示信
+				//3. 判断, 给出提示信息
 				var flag = reg_username.test(username);
 				if(flag) {
 					//用户名合法, 去掉红框
@@ -128,6 +128,7 @@
 					if(checkUsername() && checkPassword()&&checkEmail() &&checkName() &&checkTelephone() &&checkBirthday()){
 						//校验通过, 发送ajax请求提交数据
 						//serialize方法: 将表单数据序列化为username=zhagnsan&password=123的形式
+						//user是目录, regist是方法名, 对应web/servlet/UserServlet中的regist方法.
 						$.post("user/regist",$(this).serialize(), function (data) {
 							//处理服务器响应的数据
 							if(data.flag){
@@ -234,7 +235,7 @@
     							</td>
     							<td class="td_right check">
     								<input type="text" id="check" name="check" class="check">
-    								<img src="checkCode" height="32px" alt="" onclick="changeCheckCode(this)">
+    								<img src="user/checkCode" height="32px" alt="" onclick="changeCheckCode(this)">
 									<script type="text/javascript">
 										//图片点击事件
 										function changeCheckCode(img) {

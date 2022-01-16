@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,117 +23,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a335030-f67b-4acc-ba03-5a8422cc8310" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/01-jquery动画/01-显示隐藏动画.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/02-jquery遍历/01-遍历.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/03-jquery事件绑定与解绑/01-绑定事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/03-jquery事件绑定与解绑/02-on绑定事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/03-jquery事件绑定与解绑/03-事件切换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/04-jQuery综合案例/广告的自动显示与隐藏.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/04-jQuery综合案例/抽奖.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/05-jQuery的插件/01-jQuery对象进行方法扩展.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/05-jQuery的插件/02-jQuery全局进行方法扩展.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/JQuery高级.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/img/adv.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/img/man00.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/img/man01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/img/man02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/img/man03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/img/man04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/img/man05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/img/man06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/js/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_JQuery/JQuery高级/js/jquery-migrate-1.0.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15_Ajax&amp;Json/15_Ajax&amp;Json.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15_Ajax&amp;Json/src/web/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15_Ajax&amp;Json/src/web/servlet/AjaxServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15_Ajax&amp;Json/src/web/servlet/FindUserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15_Ajax&amp;Json/src/web/test/JacksonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15_Ajax&amp;Json/web/01-原生js实现ajax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15_Ajax&amp;Json/web/02-JQuery实现方式1_ajax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15_Ajax&amp;Json/web/03-JQuery实现方式2_get.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15_Ajax&amp;Json/web/04-JQuery实现方式3_post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15_Ajax&amp;Json/web/05-json数据语法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15_Ajax&amp;Json/web/06-json数据语法_遍历.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15_Ajax&amp;Json/web/07-regist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15_Ajax&amp;Json/web/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15_Ajax&amp;Json/web/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15_Ajax&amp;Json/web/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15_Ajax&amp;Json/web/js/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15_Ajax&amp;Json/web/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../15_Ajax&amp;Json/web/js/jquery-migrate-1.0.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/16_Jedis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/case.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/src/dao/ProvinceDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/src/dao/impl/ProvinceDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/src/domain/Province.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/src/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/src/jedis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/src/service/ProvinceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/src/service/impl/ProvinceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/src/util/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/src/util/JedisPoolUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/src/web/servlet/ProvinceServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/web/WEB-INF/lib/commons-pool2-2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/web/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/web/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/web/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/web/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/web/WEB-INF/lib/jedis-2.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/web/WEB-INF/lib/jstl-impl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/web/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/web/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/web/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/web/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/web/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/web/js/jquery-3.6.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/case/web/js/jquery-3.6.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/src/jedis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/src/jedis/test/JedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/src/jedis/util/JedisPoolUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/web/WEB-INF/lib/commons-pool2-2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_Jedis/web/WEB-INF/lib/jedis-2.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../17_mavenProject/maven_java_1/maven_java_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../17_mavenProject/maven_java_1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../17_mavenProject/maven_java_1/src/main/java/demo/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../17_mavenProject/maven_java_1/src/test/java/test/TestHello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../17_mavenProject/maven_java_2/maven_java_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../17_mavenProject/maven_java_2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../17_mavenProject/maven_java_2/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../17_mavenProject/maven_java_2/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../17_mavenProject/maven_web_1/maven_web_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../17_mavenProject/maven_web_1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../17_mavenProject/maven_web_1/src/main/java/web/servlet/DemoServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../17_mavenProject/maven_web_1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../17_mavenProject/maven_web_1/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/CategoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/RouteDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/CategoryDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/RouteDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/domain/PageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/RouteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/impl/RouteServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/impl/UserServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/filter/CharchaterFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/BaseServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/CategoryServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/RouteServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../_TestProjetc/1_reflect_toString/1_reflect_toString.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../_TestProjetc/1_reflect_toString/src/ObjectAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../_TestProjetc/1_reflect_toString/src/ObjectAnalyzerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../_TestProjetc/_TestProjetc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/FavoriteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/RouteImgDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/SellerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/FavoriteDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/RouteImgDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/SellerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/FavoriteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/impl/FavoriteServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/travel_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/travel_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/travel_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/travel_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_javax_mail_api_1_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_javax_mail_api_1_5_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/RouteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/RouteDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/RouteDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/RouteDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/domain/Favorite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/domain/Favorite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/RouteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/RouteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/impl/RouteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/impl/RouteServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/impl/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/impl/UserServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/util/MailUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/util/MailUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/RouteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/RouteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/route_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/route_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/route_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/route_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/travel/dao/RouteDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/dao/RouteDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/travel/dao/impl/RouteDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/dao/impl/RouteDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/travel/service/RouteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/service/RouteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/travel/service/impl/RouteServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/service/impl/RouteServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/travel/service/impl/UserServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/service/impl/UserServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/travel/util/MailUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/util/MailUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/travel/web/servlet/CheckCodeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/travel/web/servlet/RouteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/web/servlet/RouteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/itcast/travel/web/servlet/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/itcast/travel/web/servlet/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/druid.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +101,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Microsoft/jdk-11.0.12.7-hotspot/lib/src.zip!/java.base/java/lang/NoSuchMethodException.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\develop\_DATA\Java\module\apache-maven-3.8.3\mvn_repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../_DATA/Java/module/apache-maven-3.8.3" />
+        <option name="userSettingsFile" value="C:\develop\_DATA\Java\module\apache-maven-3.8.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1zLzuLjgyIxR7IJUrU0zeaoORD6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -163,9 +136,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../17_mavenProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -218,6 +198,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -233,11 +214,21 @@
       <workItem from="1634002009791" duration="17055000" />
       <workItem from="1634113964251" duration="13057000" />
       <workItem from="1634176287491" duration="17152000" />
+      <workItem from="1636855126611" duration="1727000" />
+      <workItem from="1636875512230" duration="1816000" />
+      <workItem from="1636944530429" duration="93000" />
+      <workItem from="1639899427574" duration="467000" />
+      <workItem from="1641696804640" duration="16129000" />
+      <workItem from="1641786245040" duration="3172000" />
+      <workItem from="1642163520429" duration="4535000" />
+      <workItem from="1642169323142" duration="3082000" />
+      <workItem from="1642214489981" duration="17653000" />
+      <workItem from="1642300871663" duration="15676000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -249,70 +240,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633953252013">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1633953252013" />
-    <state x="574" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1634132470917">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="574" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1634132470917" />
-    <state x="544" y="301" width="562" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1634114648625">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="544" y="301" width="562" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1634114648625" />
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1633942657354">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1633942657354" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1634205168363">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1634205168363" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1634205168363">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1634205168363" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1634205168363">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1634205168363" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1634205168363">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1634205168363" />
-    <state width="1493" height="213" key="GridCell.Tab.1.bottom" timestamp="1634205168363">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.1.bottom/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1634205168363" />
-    <state width="1493" height="213" key="GridCell.Tab.1.center" timestamp="1634205168363">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.1.center/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1634205168363" />
-    <state width="1493" height="213" key="GridCell.Tab.1.left" timestamp="1634205168363">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.1.left/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1634205168363" />
-    <state width="1493" height="213" key="GridCell.Tab.1.right" timestamp="1634205168363">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.1.right/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1634205168363" />
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1634203846565">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816/1920.-482.1536.816@0.0.1536.816" timestamp="1634203846565" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/impl/RouteServiceImpl.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
