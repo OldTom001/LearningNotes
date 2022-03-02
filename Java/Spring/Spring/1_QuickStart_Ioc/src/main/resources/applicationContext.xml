@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--scope, init-method, destroy-method属性 -->
+<!--    <bean id="userDao" class="dao.impl.UserDaoImpl" scope="singleton" init-method="init" destroy-method="destroy"></bean>-->
+
+    <!--Bean实例化的三种方法 -->
+        <!--1. 无参构造(默认) -->
+<!--    <bean id="userDao" class="dao.impl.UserDaoImpl"></bean>-->
+        <!--2. 工厂静态方法实例化 -->
+<!--    <bean id="userDao" class="factory.StaticFactory" factory-method="getUserDao"></bean> &lt;!&ndash;直接通过类调用静态方法&ndash;&gt;-->
+        <!--3. 工厂动态方法实例化 -->
+<!--    <bean id="factory" class="factory.DynamicFactory"></bean> &lt;!&ndash;先创建工厂对象, 再调方法&ndash;&gt;
+    <bean id="userDao" factory-bean="factory" factory-method="getUserDao"></bean>-->
+
+<!--    <bean id="userDao" class="dao.impl.UserDaoImpl" scope="singleton"></bean>
+    <bean id="userService" class="service.impl.UserServiceImpl" scope="singleton"></bean>-->
+
+<!--    <bean id="userDao" class="dao.impl.UserDaoImpl"></bean>-->
+
+    <!--set依赖注入(引用类型) -->
+        <!--1. 子标签方式(常用) -->
+ <!--   <bean id="userService" class="service.impl.UserServiceImpl" scope="singleton">
+        <property name="userDao" ref="userDao"></property> &lt;!&ndash;name后的userDao是属性, UserServiceImpl类中set方法, set后第一个大写字母变小写; ref后的userDao是要注入的对象, 就是上面的id userDao  &ndash;&gt;
+    </bean>-->
+        <!--2. p命名空间方式-->
+<!--    <bean id="userService" class="service.impl.UserServiceImpl" p:userDao-ref="userDao"></bean>-->
+
+    <!--构造方法注入(引用类型)-->
+<!--    <bean id="userService" class="service.impl.UserServiceImpl">
+        &lt;!&ndash; name=userDao代表service类中构造方法的参数名, ref="userDao"代表要注入的对象&ndash;&gt;
+        <constructor-arg name="userDao" ref="userDao"></constructor-arg>
+    </bean>-->
+
+    <!--set方法注入(普通类型)-->
+    <bean id="userDao" class="dao.impl.UserDaoImpl">
+        <property name="username" value="孙悟空"></property>
+        <property name="age" value="500"></property>
+        <property name="strList">
+            <list>
+                <value>str1</value>
+                <value>str2</value>
+                <value>str3</value>
+            </list>
+        </property>
+        <property name="userList">
+            <list>
+                <bean class="domain.User"></bean>
+                <bean class="domain.User"></bean>
+                <ref bean="u1"></ref>
+                <ref bean="u2"></ref>
+            </list>
+        </property>
+        <property name="userMap">
+            <map>
+                <entry key="user1" value-ref="u1"></entry>
+                <entry key="user2" value-ref="u2"></entry>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="p1">ppp1</prop>
+                <prop key="p2">ppp1</prop>
+                <prop key="p2">ppp1</prop>
+            </props>
+        </property>
+    </bean>
+    <bean id="u1" class="domain.User">
+        <property name="name" value="猪悟能"></property>
+        <property name="addr" value="200"></property>
+    </bean>
+    <bean id="u2" class="domain.User">
+        <property name="name" value="沙悟净"></property>
+        <property name="addr" value="100"></property>
+    </bean>
+</beans>
