@@ -76,4 +76,9 @@
         <property name="name" value="沙悟净"></property>
         <property name="addr" value="100"></property>
     </bean>
+
+    <import resource="applicationContext-user.xml"/>
+    <import resource="applicationContext-product.xml"/>
+
+
 </beans>

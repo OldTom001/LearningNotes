@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="1_QuickStart_Ioc" />
+        <module name="2_ConnectionPool_Anno" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="1_QuickStart_Ioc" target="1.7" />
+      <module name="1_QuickStart_Ioc" target="11" />
       <module name="1_QuickStart_Ioc0" target="1.7" />
+      <module name="2_ConnectionPool_Anno" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
