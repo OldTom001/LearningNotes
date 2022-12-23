@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+
+
+    <!--定义别名-->
+    <typeAliases>
+<!--        <typeAlias type="com.jeff.domain.Account" alias="account"></typeAlias>-->
+        <!--也可以通过扫包配置别名, 别名是类名或类名首字母小写-->
+        <package name="com.jeff.domain"></package>
+    </typeAliases>
+
+
+</configuration>

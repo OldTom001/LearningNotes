@@ -1,0 +1,53 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/springboot?serverTimezone=UTC
+      username: root
+      password: root
+
+#  配置监控
+  boot:
+    admin:
+      client:
+        url: http://localhost:8080
+management:
+  endpoint:
+    health: #配置开放访问的端点
+      show-details: always
+      enabled: true
+    info:
+      enabled: true
+  endpoints:
+    enabled-by-default: true #默认可监测的端点
+    web:
+      exposure:
+        include: "*" #web段可以显示的端点
+  #        include: health, info
+  info:
+    env:
+      enabled: true # 2.7以后默认是关闭状态, 导致下面对info的配置无效, 需要手动开启
+
+info:
+  appName: @project.artifactId@
+  version: @project.version@
+  company: 传智教育
+  author: itheima
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tbl_		#设置所有表的通用前缀名称为tbl_
+      id-type: auto
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  # 打印MP日志
+
+tools:
+  ip:
+    cycle: 1
+    cycleReset: false
+    model: "detail"
+

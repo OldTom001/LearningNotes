@@ -1,0 +1,2 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=hi.zsl.autoconfig.IpAutoConfiguration

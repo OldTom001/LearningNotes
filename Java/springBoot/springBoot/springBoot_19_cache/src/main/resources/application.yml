@@ -1,0 +1,46 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/springboot?serverTimezone=UTC
+      username: root
+      password: root
+
+# cache.type默认是simple
+
+##  --------redis配置, 不需要配置文件-------------
+#  cache:
+#    type: redis
+#    redis:
+#      use-key-prefix: true
+#      key-prefix: sms_
+#      cache-null-values: false
+#      time-to-live: 10s
+#  redis:
+#    host: localhost
+#    port: 6379
+
+## -----------ehcache配置, 需要配置文件------------
+#  cache:
+#    type: ehcache
+#    ehcache:
+#      config: "classpath:ehcache.xml"
+
+# -------------memcached配置, springboot未整合该技术, 需要手写配置类------------
+memcached:
+  servers: localhost:11211
+  poolSize: 10
+  opTimeout: 3000
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tbl_		#表前缀tbl_
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  # 打印MP日志
+
+

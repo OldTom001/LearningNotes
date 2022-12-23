@@ -1,0 +1,46 @@
+{
+  "groups": [
+    {
+      "name": "tools.ip",
+      "type": "hi.zsl.properties.IpProperties",
+      "sourceType": "hi.zsl.properties.IpProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "tools.ip.cycle",
+      "type": "java.lang.Long",
+      "description": "日志显示周期",
+      "sourceType": "hi.zsl.properties.IpProperties",
+      "defaultValue": 5
+    },
+    {
+      "name": "tools.ip.cycle-reset",
+      "type": "java.lang.Boolean",
+      "description": "是否周期内重置数据",
+      "sourceType": "hi.zsl.properties.IpProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "tools.ip.model",
+      "type": "java.lang.String",
+      "description": "日志输出模式  detail：详细模式  simple：极简模式 枚举类: 每一个常量(DETAIL, SIMPLE)都是一个LogModel的实例, 内部有一个属性value LogModel.DETAIL的类型是LogModel, LogModel.DETAIL.value的类型是String enum类中只能定义私有(默认)的构造方法, 无法从外部构造.",
+      "sourceType": "hi.zsl.properties.IpProperties"
+    }
+  ],
+  "hints": [
+    {
+      "name": "tools.ip.model",
+      "values": [
+        {
+          "value": "detail",
+          "description": "详细模式."
+        },
+        {
+          "value": "simple",
+          "description": "极简模式."
+        }
+      ]
+    }
+  ]
+}

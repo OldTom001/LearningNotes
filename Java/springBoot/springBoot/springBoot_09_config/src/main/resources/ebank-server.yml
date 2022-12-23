@@ -1,0 +1,3 @@
+# 这是一个自定义配置文件, 在Program Argument中配置
+server:
+  port: 83

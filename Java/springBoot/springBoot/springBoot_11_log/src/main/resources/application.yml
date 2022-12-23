@@ -1,0 +1,26 @@
+server:
+  port: 80
+
+logging:
+  # 设置日志组
+  group:
+    # 自定义组名，设置当前组中所包含的包
+    ebank: com.jeff.controller
+  level:
+    root: info
+    # 为对应组设置日志级别
+    ebank: debug
+    # 也可直接为对包设置日志级别
+    # com.jeff.controller: debug
+
+  # 日志格式
+  pattern:
+    console: "%d %clr(%5p) --- [%16t] %clr(%-40.40c){cyan} : %m %n"
+  file:
+    name: server.log
+  logback:
+    rollingpolicy:
+      max-file-size: 3KB
+      file-name-pattern: server.%d{yyyy-MM-dd}.%i.log
+
+

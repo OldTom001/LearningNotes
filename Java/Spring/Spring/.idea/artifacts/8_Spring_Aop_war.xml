@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="8_Spring_Aop:war">
+    <output-path>$PROJECT_DIR$/8_Spring_Aop/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>8_Spring_Aop</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="8_Spring_Aop.war">
+      <element id="artifact" artifact-name="8_Spring_Aop:war exploded" />
+    </root>
+  </artifact>
+</component>

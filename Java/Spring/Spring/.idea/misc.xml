@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/10_Spring_Tx_Anno" />
+    <file type="web" url="file://$PROJECT_DIR$/11_Mybatis_Quick" />
+    <file type="web" url="file://$PROJECT_DIR$/12_Mybatis_Dao" />
+    <file type="web" url="file://$PROJECT_DIR$/13_Mybatis_Mapper" />
+    <file type="web" url="file://$PROJECT_DIR$/14_Mybatis_Config" />
+    <file type="web" url="file://$PROJECT_DIR$/15_Mybatis_Multi" />
+    <file type="web" url="file://$PROJECT_DIR$/16_Mybatis_anno" />
+    <file type="web" url="file://$PROJECT_DIR$/17_ssm" />
     <file type="web" url="file://$PROJECT_DIR$/1_QuickStart_Ioc" />
+    <file type="web" url="file://$PROJECT_DIR$/22" />
     <file type="web" url="file://$PROJECT_DIR$/2_ConnectionPool_Anno" />
+    <file type="web" url="file://$PROJECT_DIR$/3_Spring_Mvc" />
+    <file type="web" url="file://$PROJECT_DIR$/4_JdbcTemplate" />
+    <file type="web" url="file://$PROJECT_DIR$/5_Spring_test" />
+    <file type="web" url="file://$PROJECT_DIR$/6_Spring_Interceptor" />
+    <file type="web" url="file://$PROJECT_DIR$/7_Spring_Exception" />
+    <file type="web" url="file://$PROJECT_DIR$/8_Spring_Aop" />
+    <file type="web" url="file://$PROJECT_DIR$/9_Spring_Tx" />
+    <file type="web" url="file://$PROJECT_DIR$/TestBug" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/1_QuickStart_Ioc/pom.xml" />
         <option value="$PROJECT_DIR$/2_ConnectionPool_Anno/pom.xml" />
+        <option value="$PROJECT_DIR$/3_Spring_Mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/4_JdbcTemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/5_Spring_test/pom.xml" />
+        <option value="$PROJECT_DIR$/6_Spring_Interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/7_Spring_Exception/pom.xml" />
+        <option value="$PROJECT_DIR$/8_Spring_Aop/pom.xml" />
+        <option value="$PROJECT_DIR$/9_Spring_Tx/pom.xml" />
+        <option value="$PROJECT_DIR$/10_Spring_Tx_Anno/pom.xml" />
+        <option value="$PROJECT_DIR$/11_Mybatis_Quick/pom.xml" />
+        <option value="$PROJECT_DIR$/12_Mybatis_Dao/pom.xml" />
+        <option value="$PROJECT_DIR$/13_Mybatis_Mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/14_Mybatis_Config/pom.xml" />
+        <option value="$PROJECT_DIR$/15_Mybatis_Multi/pom.xml" />
+        <option value="$PROJECT_DIR$/16_Mybatis_anno/pom.xml" />
+        <option value="$PROJECT_DIR$/17_ssm/pom.xml" />
       </list>
     </option>
   </component>

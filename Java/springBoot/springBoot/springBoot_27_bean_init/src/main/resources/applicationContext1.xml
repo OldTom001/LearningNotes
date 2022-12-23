@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="cat" class="com.jeff.bean.Cat"/>
+    <bean class="com.jeff.bean.Dog"/>
+    <bean id="mouse" class="com.jeff.bean.Mouse"/>
+
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"/>
+    <bean class="com.alibaba.druid.pool.DruidDataSource"/>
+    <bean class="com.alibaba.druid.pool.DruidDataSource"/>
+</beans>

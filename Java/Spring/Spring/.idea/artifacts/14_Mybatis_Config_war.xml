@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="14_Mybatis_Config:war">
+    <output-path>$PROJECT_DIR$/14_Mybatis_Config/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>14_Mybatis_Config</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="14_Mybatis_Config.war">
+      <element id="artifact" artifact-name="14_Mybatis_Config:war exploded" />
+    </root>
+  </artifact>
+</component>

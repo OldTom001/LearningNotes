@@ -20,7 +20,7 @@ public class UserDaoImpl implements UserDao {
      * Spring会默认通过无参构造方法创建对象
      */
     public UserDaoImpl() {
-        System.out.println("UserDaoImpl对象创建...");
+        System.out.println("UserDaoImpl对象通过无参构造方法(默认)创建...");
     }
 
 

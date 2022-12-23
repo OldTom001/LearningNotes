@@ -33,9 +33,9 @@ public class UserServiceImpl implements UserService {
     /**
      * 使用set依赖注入, 不需要再手动获取dao层的对象
      */
-/*    public void setUserDao(UserDao userDao){
+    public void setUserDao(UserDao userDao){
         this.userDao=userDao;
-    }*/
+    }
 
     @Override
     public void save() {
