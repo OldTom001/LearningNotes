@@ -1,0 +1,48 @@
+country: china
+province: beijing
+city: beijing
+area: haidian
+
+party: true
+birthday: 1949-10-01
+
+users2:
+  -
+    name: zhangsan
+    age: 18
+  -
+    name: lisi
+    age: 17
+likes: [王者荣耀, 刺激战场]
+
+users3: [{name: zhangsan, age: 18}, {name: lisi, age:17}]
+
+subject:
+  - java
+  - 前端
+  - 大数据
+
+enterprise:
+  name: jeff
+  age: 16
+  subject:
+    - java
+    - 前端
+    - 大数据
+server:
+  port: 80
+
+baseDir: /usr/local/fire
+center:
+  dataDir: ${baseDir}/data
+  tmpDir: ${baseDir}/tmp
+  logDir: ${baseDir}/log
+  msgDir: ${baseDir}/msgDir
+
+lesson: "Spring\tboot\nlesson"
+
+datasource:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost/springboot_db
+  username: root
+  password: root666123

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+<!--    通过properties标签加载外部properties文件-->
+    <properties resource="jdbc.properties"></properties>
+
+<!--    自定义别名-->
+    <typeAliases>
+        <typeAlias type="com.jeff.domain.User" alias="user"/>
+    </typeAliases>
+
+<!--    注册自定义类转换-->
+    <typeHandlers>
+        <typeHandler handler="com.jeff.typeHandler.DateTypeHandler"></typeHandler>
+    </typeHandlers>
+
+    <plugins>
+        <!-- com.github.pagehelper为PageHelper类所在包名 -->
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!-- 使用下面的方式配置参数，后面会有所有的参数介绍 -->
+            <property name="helperDialect" value="mysql"/>
+        </plugin>
+    </plugins>
+
+<!--    数据源环境-->
+    <environments default="developement">
+        <environment id="developement">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+<!--    加载映射文件-->
+    <mappers>
+        <mapper resource="com/jeff/mapper/UserMapper.xml"/>
+    </mappers>
+</configuration>
